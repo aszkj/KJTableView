@@ -83,6 +83,10 @@
     self.listDataEmptyHandler.needHandleEmptyCondition = needHandleEmptyCondition;
 }
 
+- (void)setCustomEmptyShowView:(id)customEmptyShowView {
+    [self.listDataEmptyHandler setCustomEmptyShowView:customEmptyShowView];
+}
+
 #pragma mark - listDataRequester done
 - (void)setRequestFromPage:(NSInteger)requestFromPage {
     self.listDataRequester.requestFromPage = requestFromPage;

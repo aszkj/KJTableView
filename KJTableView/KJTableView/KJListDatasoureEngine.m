@@ -114,7 +114,7 @@
 //配置分组的，每组组头相同，
 -(void)configureMultiSetionHeaderNibName:(NSString *)setionHeaderNibName
                    cellNibName:(NSString *)cellNibName
-          getSectionCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
+          getSectionCellsCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
      configureSectionCellBlock:(KJConfigureListCellBlock)configureSectionCellBlock
    configureSectionHeaderBlock:(KJConfigureListfirstSectionHeaderFooterBlock)
 configureSectionHeaderBlock
@@ -132,7 +132,7 @@ configureSectionHeaderBlock
 
 -(void)configureMultiSetionFooterNibName:(NSString *)setionFooterNibName
                              cellNibName:(NSString *)cellNibName
-                    getSectionCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
+                    getSectionCellsCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
                configureSectionCellBlock:(KJConfigureListCellBlock)configureSectionCellBlock
              configureSectionHeaderBlock:(KJConfigureListfirstSectionHeaderFooterBlock)
 configureSectionFooterBlock

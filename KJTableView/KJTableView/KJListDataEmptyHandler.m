@@ -31,6 +31,13 @@
     return self;
 }
 
+- (void)setCustomEmptyShowView:(id)customEmptyShowView{
+    
+    if ([customEmptyShowView isKindOfClass:[KJEmptyShowBaseView class]]) {
+        self.listEmptyShowView = (KJEmptyShowBaseView *)customEmptyShowView;
+    }
+}
+
 - (void)handleEmptyCondition {
     if (!self.needHandleEmptyCondition) {
         return;

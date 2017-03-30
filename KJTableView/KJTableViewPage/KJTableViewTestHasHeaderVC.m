@@ -1,23 +1,23 @@
 //
-//  ViewController.m
+//  KJTableViewTestHasHeaderVC.m
 //  KJTableView
 //
-//  Created by mm on 17/3/21.
+//  Created by mm on 17/3/29.
 //  Copyright © 2017年 mm. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "KJTableViewTestHasHeaderVC.h"
 #import "KJTableView.h"
 #import "KJTableViewCell.h"
-#import "KJTableViewTestVC.h"
+#import "KJTableViewTestSingleHeaderVC.h"
+#import "KJTableViewTestMutiplHeaderVC.h"
 
-
-@interface ViewController ()
+@interface KJTableViewTestHasHeaderVC ()
 @property (weak, nonatomic) IBOutlet KJTableView *testTableView;
 
 @end
 
-@implementation ViewController
+@implementation KJTableViewTestHasHeaderVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,8 +25,8 @@
     [self _configureKJTableView];
     
     [self testReloadData];
+    
 }
-
 - (void)testReloadData {
     [self.testTableView.listEngine loadDataAfterRequestTotalData:[self _testData]];
 }
@@ -41,29 +41,25 @@
     } clickCell:^(id listView, id listCell, id model, NSIndexPath *clickIndexPath) {
         UIViewController *vc = nil;
         if (clickIndexPath.row == 0) {
-            vc = [[KJTableViewTestVC alloc] init];
-        }else {
-            
+            vc = [[KJTableViewTestSingleHeaderVC alloc] init];
+        }else if (clickIndexPath.row == 1) {
+            vc = [[KJTableViewTestMutiplHeaderVC alloc] init];
         }
         [weak_self.navigationController pushViewController:vc animated:YES];
+
     }];
 }
 
 
 - (NSArray *)_testData {
     KJModel *model1 = [[KJModel alloc] init];
-    model1.name = @"KJTableViewTestExample";
+    model1.name = @"单组头测试";
     
     KJModel *model2 = [[KJModel alloc] init];
-    model2.name = @"KJCollectionViewTestExample";
+    model2.name = @"多组相同组头测试";
     return @[model1,model2];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

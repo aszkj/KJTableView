@@ -22,6 +22,42 @@
 		8D0179C51E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B41E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m */; };
 		8D0179C61E8ADC2E002E2B9A /* KJTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B61E8ADC2E002E2B9A /* KJTableView.m */; };
 		8D0179C71E8ADC2E002E2B9A /* KJTableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B81E8ADC2E002E2B9A /* KJTableViewDatasource.m */; };
+		8D0179CD1E8AE5A0002E2B9A /* KJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179CC1E8AE5A0002E2B9A /* KJModel.m */; };
+		8D0179D11E8AE5D5002E2B9A /* KJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179CF1E8AE5D5002E2B9A /* KJTableViewCell.m */; };
+		8D0179D21E8AE5D5002E2B9A /* KJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179D01E8AE5D5002E2B9A /* KJTableViewCell.xib */; };
+		8D0179D61E8AE5F8002E2B9A /* KJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179D41E8AE5F8002E2B9A /* KJCollectionViewCell.m */; };
+		8D0179D71E8AE5F8002E2B9A /* KJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179D51E8AE5F8002E2B9A /* KJCollectionViewCell.xib */; };
+		8D0179DB1E8B104A002E2B9A /* KJTableViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179D91E8B104A002E2B9A /* KJTableViewTestVC.m */; };
+		8D0179DC1E8B104A002E2B9A /* KJTableViewTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179DA1E8B104A002E2B9A /* KJTableViewTestVC.xib */; };
+		8D0179F01E8B13E5002E2B9A /* rotating01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179DE1E8B13E4002E2B9A /* rotating01.png */; };
+		8D0179F11E8B13E5002E2B9A /* rotating02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179DF1E8B13E4002E2B9A /* rotating02.png */; };
+		8D0179F21E8B13E5002E2B9A /* rotating03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E01E8B13E4002E2B9A /* rotating03.png */; };
+		8D0179F31E8B13E5002E2B9A /* rotating04.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E11E8B13E4002E2B9A /* rotating04.png */; };
+		8D0179F41E8B13E5002E2B9A /* rotating05.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E21E8B13E4002E2B9A /* rotating05.png */; };
+		8D0179F51E8B13E5002E2B9A /* rotating06.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E31E8B13E4002E2B9A /* rotating06.png */; };
+		8D0179F61E8B13E5002E2B9A /* rotating07.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E41E8B13E4002E2B9A /* rotating07.png */; };
+		8D0179F71E8B13E5002E2B9A /* rotating08.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E51E8B13E5002E2B9A /* rotating08.png */; };
+		8D0179F81E8B13E5002E2B9A /* rotating09.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E61E8B13E5002E2B9A /* rotating09.png */; };
+		8D0179F91E8B13E5002E2B9A /* rotating10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E71E8B13E5002E2B9A /* rotating10.png */; };
+		8D0179FA1E8B13E5002E2B9A /* rotating11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E81E8B13E5002E2B9A /* rotating11.png */; };
+		8D0179FB1E8B13E5002E2B9A /* rotating12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179E91E8B13E5002E2B9A /* rotating12.png */; };
+		8D0179FC1E8B13E5002E2B9A /* rotating13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179EA1E8B13E5002E2B9A /* rotating13.png */; };
+		8D0179FD1E8B13E5002E2B9A /* rotating14.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179EB1E8B13E5002E2B9A /* rotating14.png */; };
+		8D0179FE1E8B13E5002E2B9A /* rotating15.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179EC1E8B13E5002E2B9A /* rotating15.png */; };
+		8D0179FF1E8B13E5002E2B9A /* rotating16.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179ED1E8B13E5002E2B9A /* rotating16.png */; };
+		8D017A001E8B13E5002E2B9A /* rotating17.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179EE1E8B13E5002E2B9A /* rotating17.png */; };
+		8D017A011E8B13E5002E2B9A /* rotating18.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179EF1E8B13E5002E2B9A /* rotating18.png */; };
+		8D017A151E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A131E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m */; };
+		8D017A161E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A141E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib */; };
+		8D017A1A1E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A181E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.m */; };
+		8D017A1B1E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A191E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.xib */; };
+		8D017A1F1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A1D1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.m */; };
+		8D017A201E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A1E1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.xib */; };
+		8D017A241E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A221E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.m */; };
+		8D017A251E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A231E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib */; };
+		8D017A2A1E8C839E002E2B9A /* TableTestHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A291E8C839E002E2B9A /* TableTestHeaderView.xib */; };
+		8D017A2D1E8C8557002E2B9A /* TableTestHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A2C1E8C8557002E2B9A /* TableTestHeaderView.m */; };
+		8D017A301E8C8CCA002E2B9A /* KJGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */; };
 		8D273E201E81DFB4003FBB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E1F1E81DFB4003FBB90 /* main.m */; };
 		8D273E231E81DFB4003FBB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E221E81DFB4003FBB90 /* AppDelegate.m */; };
 		8D273E261E81DFB4003FBB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E251E81DFB4003FBB90 /* ViewController.m */; };
@@ -101,6 +137,52 @@
 		8D0179B61E8ADC2E002E2B9A /* KJTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableView.m; sourceTree = "<group>"; };
 		8D0179B71E8ADC2E002E2B9A /* KJTableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewDatasource.h; sourceTree = "<group>"; };
 		8D0179B81E8ADC2E002E2B9A /* KJTableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewDatasource.m; sourceTree = "<group>"; };
+		8D0179CB1E8AE5A0002E2B9A /* KJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJModel.h; sourceTree = "<group>"; };
+		8D0179CC1E8AE5A0002E2B9A /* KJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJModel.m; sourceTree = "<group>"; };
+		8D0179CE1E8AE5D5002E2B9A /* KJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KJTableViewCell.h; path = ../KJTableViewCell.h; sourceTree = "<group>"; };
+		8D0179CF1E8AE5D5002E2B9A /* KJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KJTableViewCell.m; path = ../KJTableViewCell.m; sourceTree = "<group>"; };
+		8D0179D01E8AE5D5002E2B9A /* KJTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KJTableViewCell.xib; path = ../KJTableViewCell.xib; sourceTree = "<group>"; };
+		8D0179D31E8AE5F8002E2B9A /* KJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KJCollectionViewCell.h; path = ../KJCollectionViewCell.h; sourceTree = "<group>"; };
+		8D0179D41E8AE5F8002E2B9A /* KJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KJCollectionViewCell.m; path = ../KJCollectionViewCell.m; sourceTree = "<group>"; };
+		8D0179D51E8AE5F8002E2B9A /* KJCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KJCollectionViewCell.xib; path = ../KJCollectionViewCell.xib; sourceTree = "<group>"; };
+		8D0179D81E8B104A002E2B9A /* KJTableViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestVC.h; sourceTree = "<group>"; };
+		8D0179D91E8B104A002E2B9A /* KJTableViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestVC.m; sourceTree = "<group>"; };
+		8D0179DA1E8B104A002E2B9A /* KJTableViewTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestVC.xib; sourceTree = "<group>"; };
+		8D0179DE1E8B13E4002E2B9A /* rotating01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating01.png; sourceTree = "<group>"; };
+		8D0179DF1E8B13E4002E2B9A /* rotating02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating02.png; sourceTree = "<group>"; };
+		8D0179E01E8B13E4002E2B9A /* rotating03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating03.png; sourceTree = "<group>"; };
+		8D0179E11E8B13E4002E2B9A /* rotating04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating04.png; sourceTree = "<group>"; };
+		8D0179E21E8B13E4002E2B9A /* rotating05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating05.png; sourceTree = "<group>"; };
+		8D0179E31E8B13E4002E2B9A /* rotating06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating06.png; sourceTree = "<group>"; };
+		8D0179E41E8B13E4002E2B9A /* rotating07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating07.png; sourceTree = "<group>"; };
+		8D0179E51E8B13E5002E2B9A /* rotating08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating08.png; sourceTree = "<group>"; };
+		8D0179E61E8B13E5002E2B9A /* rotating09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating09.png; sourceTree = "<group>"; };
+		8D0179E71E8B13E5002E2B9A /* rotating10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating10.png; sourceTree = "<group>"; };
+		8D0179E81E8B13E5002E2B9A /* rotating11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating11.png; sourceTree = "<group>"; };
+		8D0179E91E8B13E5002E2B9A /* rotating12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating12.png; sourceTree = "<group>"; };
+		8D0179EA1E8B13E5002E2B9A /* rotating13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating13.png; sourceTree = "<group>"; };
+		8D0179EB1E8B13E5002E2B9A /* rotating14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating14.png; sourceTree = "<group>"; };
+		8D0179EC1E8B13E5002E2B9A /* rotating15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating15.png; sourceTree = "<group>"; };
+		8D0179ED1E8B13E5002E2B9A /* rotating16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating16.png; sourceTree = "<group>"; };
+		8D0179EE1E8B13E5002E2B9A /* rotating17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating17.png; sourceTree = "<group>"; };
+		8D0179EF1E8B13E5002E2B9A /* rotating18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotating18.png; sourceTree = "<group>"; };
+		8D017A121E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestNoHeaderVC.h; sourceTree = "<group>"; };
+		8D017A131E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestNoHeaderVC.m; sourceTree = "<group>"; };
+		8D017A141E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestNoHeaderVC.xib; sourceTree = "<group>"; };
+		8D017A171E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestHasHeaderVC.h; sourceTree = "<group>"; };
+		8D017A181E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestHasHeaderVC.m; sourceTree = "<group>"; };
+		8D017A191E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestHasHeaderVC.xib; sourceTree = "<group>"; };
+		8D017A1C1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestSingleHeaderVC.h; sourceTree = "<group>"; };
+		8D017A1D1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestSingleHeaderVC.m; sourceTree = "<group>"; };
+		8D017A1E1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestSingleHeaderVC.xib; sourceTree = "<group>"; };
+		8D017A211E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestMutiplHeaderVC.h; sourceTree = "<group>"; };
+		8D017A221E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestMutiplHeaderVC.m; sourceTree = "<group>"; };
+		8D017A231E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestMutiplHeaderVC.xib; sourceTree = "<group>"; };
+		8D017A291E8C839E002E2B9A /* TableTestHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableTestHeaderView.xib; sourceTree = "<group>"; };
+		8D017A2B1E8C8557002E2B9A /* TableTestHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTestHeaderView.h; sourceTree = "<group>"; };
+		8D017A2C1E8C8557002E2B9A /* TableTestHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTestHeaderView.m; sourceTree = "<group>"; };
+		8D017A2E1E8C8CCA002E2B9A /* KJGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJGroupModel.h; sourceTree = "<group>"; };
+		8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJGroupModel.m; sourceTree = "<group>"; };
 		8D273E1B1E81DFB4003FBB90 /* KJTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D273E1F1E81DFB4003FBB90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D273E211E81DFB4003FBB90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -222,6 +304,95 @@
 			path = KJTableView;
 			sourceTree = "<group>";
 		};
+		8D0179C81E8AE553002E2B9A /* KJCollectionViewTestExample */ = {
+			isa = PBXGroup;
+			children = (
+				8D0179D31E8AE5F8002E2B9A /* KJCollectionViewCell.h */,
+				8D0179D41E8AE5F8002E2B9A /* KJCollectionViewCell.m */,
+				8D0179D51E8AE5F8002E2B9A /* KJCollectionViewCell.xib */,
+			);
+			name = KJCollectionViewTestExample;
+			path = KJCollectionViewPage;
+			sourceTree = "<group>";
+		};
+		8D0179C91E8AE553002E2B9A /* KJTableViewTestExample */ = {
+			isa = PBXGroup;
+			children = (
+				8D017A281E8C8298002E2B9A /* CellAndHeader */,
+				8D017A271E8C8258002E2B9A /* NoHeader */,
+				8D017A261E8C8230002E2B9A /* HasHeader */,
+				8D0179D81E8B104A002E2B9A /* KJTableViewTestVC.h */,
+				8D0179D91E8B104A002E2B9A /* KJTableViewTestVC.m */,
+				8D0179DA1E8B104A002E2B9A /* KJTableViewTestVC.xib */,
+			);
+			name = KJTableViewTestExample;
+			path = KJTableViewPage;
+			sourceTree = "<group>";
+		};
+		8D0179DD1E8B13DC002E2B9A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8D0179DE1E8B13E4002E2B9A /* rotating01.png */,
+				8D0179DF1E8B13E4002E2B9A /* rotating02.png */,
+				8D0179E01E8B13E4002E2B9A /* rotating03.png */,
+				8D0179E11E8B13E4002E2B9A /* rotating04.png */,
+				8D0179E21E8B13E4002E2B9A /* rotating05.png */,
+				8D0179E31E8B13E4002E2B9A /* rotating06.png */,
+				8D0179E41E8B13E4002E2B9A /* rotating07.png */,
+				8D0179E51E8B13E5002E2B9A /* rotating08.png */,
+				8D0179E61E8B13E5002E2B9A /* rotating09.png */,
+				8D0179E71E8B13E5002E2B9A /* rotating10.png */,
+				8D0179E81E8B13E5002E2B9A /* rotating11.png */,
+				8D0179E91E8B13E5002E2B9A /* rotating12.png */,
+				8D0179EA1E8B13E5002E2B9A /* rotating13.png */,
+				8D0179EB1E8B13E5002E2B9A /* rotating14.png */,
+				8D0179EC1E8B13E5002E2B9A /* rotating15.png */,
+				8D0179ED1E8B13E5002E2B9A /* rotating16.png */,
+				8D0179EE1E8B13E5002E2B9A /* rotating17.png */,
+				8D0179EF1E8B13E5002E2B9A /* rotating18.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		8D017A261E8C8230002E2B9A /* HasHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8D017A171E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.h */,
+				8D017A181E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.m */,
+				8D017A191E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.xib */,
+				8D017A1C1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.h */,
+				8D017A1D1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.m */,
+				8D017A1E1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.xib */,
+				8D017A211E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.h */,
+				8D017A221E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.m */,
+				8D017A231E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib */,
+			);
+			name = HasHeader;
+			sourceTree = "<group>";
+		};
+		8D017A271E8C8258002E2B9A /* NoHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8D017A121E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.h */,
+				8D017A131E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m */,
+				8D017A141E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib */,
+			);
+			name = NoHeader;
+			sourceTree = "<group>";
+		};
+		8D017A281E8C8298002E2B9A /* CellAndHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8D0179CE1E8AE5D5002E2B9A /* KJTableViewCell.h */,
+				8D0179CF1E8AE5D5002E2B9A /* KJTableViewCell.m */,
+				8D0179D01E8AE5D5002E2B9A /* KJTableViewCell.xib */,
+				8D017A291E8C839E002E2B9A /* TableTestHeaderView.xib */,
+				8D017A2B1E8C8557002E2B9A /* TableTestHeaderView.h */,
+				8D017A2C1E8C8557002E2B9A /* TableTestHeaderView.m */,
+			);
+			name = CellAndHeader;
+			sourceTree = "<group>";
+		};
 		8D273E121E81DFB3003FBB90 = {
 			isa = PBXGroup;
 			children = (
@@ -251,11 +422,17 @@
 				8D273E221E81DFB4003FBB90 /* AppDelegate.m */,
 				8D273E241E81DFB4003FBB90 /* ViewController.h */,
 				8D273E251E81DFB4003FBB90 /* ViewController.m */,
+				8D0179C81E8AE553002E2B9A /* KJCollectionViewTestExample */,
+				8D0179C91E8AE553002E2B9A /* KJTableViewTestExample */,
 				8D273E271E81DFB4003FBB90 /* Main.storyboard */,
 				8D273E2A1E81DFB4003FBB90 /* Assets.xcassets */,
 				8D273E2C1E81DFB4003FBB90 /* LaunchScreen.storyboard */,
 				8D273E2F1E81DFB4003FBB90 /* Info.plist */,
 				8D273E1E1E81DFB4003FBB90 /* Supporting Files */,
+				8D0179CB1E8AE5A0002E2B9A /* KJModel.h */,
+				8D0179CC1E8AE5A0002E2B9A /* KJModel.m */,
+				8D017A2E1E8C8CCA002E2B9A /* KJGroupModel.h */,
+				8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */,
 			);
 			path = KJTableView;
 			sourceTree = "<group>";
@@ -263,6 +440,7 @@
 		8D273E1E1E81DFB4003FBB90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8D0179DD1E8B13DC002E2B9A /* image */,
 				8D273E1F1E81DFB4003FBB90 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -458,6 +636,7 @@
 				TargetAttributes = {
 					8D273E1A1E81DFB4003FBB90 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LLKYVL766D;
 						ProvisioningStyle = Automatic;
 					};
 					8D273E331E81DFB4003FBB90 = {
@@ -497,12 +676,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0179F61E8B13E5002E2B9A /* rotating07.png in Resources */,
+				8D0179F21E8B13E5002E2B9A /* rotating03.png in Resources */,
+				8D0179D21E8AE5D5002E2B9A /* KJTableViewCell.xib in Resources */,
 				8D0179C21E8ADC2E002E2B9A /* KJListEmptyShowView.xib in Resources */,
+				8D0179DC1E8B104A002E2B9A /* KJTableViewTestVC.xib in Resources */,
 				8D273E2E1E81DFB4003FBB90 /* LaunchScreen.storyboard in Resources */,
 				8D273E2B1E81DFB4003FBB90 /* Assets.xcassets in Resources */,
+				8D0179F51E8B13E5002E2B9A /* rotating06.png in Resources */,
+				8D0179F31E8B13E5002E2B9A /* rotating04.png in Resources */,
 				8D273E831E81E140003FBB90 /* LICENSE in Resources */,
+				8D017A201E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.xib in Resources */,
+				8D0179F41E8B13E5002E2B9A /* rotating05.png in Resources */,
+				8D0179FF1E8B13E5002E2B9A /* rotating16.png in Resources */,
+				8D0179FC1E8B13E5002E2B9A /* rotating13.png in Resources */,
+				8D0179FA1E8B13E5002E2B9A /* rotating11.png in Resources */,
+				8D0179F01E8B13E5002E2B9A /* rotating01.png in Resources */,
+				8D0179F91E8B13E5002E2B9A /* rotating10.png in Resources */,
+				8D0179FB1E8B13E5002E2B9A /* rotating12.png in Resources */,
+				8D0179F81E8B13E5002E2B9A /* rotating09.png in Resources */,
+				8D0179D71E8AE5F8002E2B9A /* KJCollectionViewCell.xib in Resources */,
+				8D017A2A1E8C839E002E2B9A /* TableTestHeaderView.xib in Resources */,
+				8D017A001E8B13E5002E2B9A /* rotating17.png in Resources */,
+				8D017A011E8B13E5002E2B9A /* rotating18.png in Resources */,
+				8D017A161E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib in Resources */,
+				8D017A251E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib in Resources */,
 				8D273E921E81E140003FBB90 /* MJRefresh.bundle in Resources */,
+				8D0179F11E8B13E5002E2B9A /* rotating02.png in Resources */,
+				8D0179F71E8B13E5002E2B9A /* rotating08.png in Resources */,
 				8D273E291E81DFB4003FBB90 /* Main.storyboard in Resources */,
+				8D017A1B1E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.xib in Resources */,
+				8D0179FD1E8B13E5002E2B9A /* rotating14.png in Resources */,
+				8D0179FE1E8B13E5002E2B9A /* rotating15.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,29 +744,39 @@
 				8D0179BB1E8ADC2E002E2B9A /* KJConst.m in Sources */,
 				8D273E231E81DFB4003FBB90 /* AppDelegate.m in Sources */,
 				8D0179BE1E8ADC2E002E2B9A /* KJListDataLoadManager.m in Sources */,
+				8D017A2D1E8C8557002E2B9A /* TableTestHeaderView.m in Sources */,
 				8D0179C51E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m in Sources */,
 				8D273E861E81E140003FBB90 /* MJRefreshComponent.m in Sources */,
 				8D0179C11E8ADC2E002E2B9A /* KJListEmptyShowView.m in Sources */,
 				8D273E981E81E140003FBB90 /* README.md in Sources */,
+				8D017A301E8C8CCA002E2B9A /* KJGroupModel.m in Sources */,
 				8D273E881E81E140003FBB90 /* MJRefreshHeader.m in Sources */,
+				8D0179D11E8AE5D5002E2B9A /* KJTableViewCell.m in Sources */,
+				8D017A241E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.m in Sources */,
 				8D273E971E81E140003FBB90 /* UIView+MJExtension.m in Sources */,
 				8D273E8E1E81E140003FBB90 /* MJRefreshBackStateFooter.m in Sources */,
 				8D273E841E81E140003FBB90 /* MJRefreshAutoFooter.m in Sources */,
+				8D0179D61E8AE5F8002E2B9A /* KJCollectionViewCell.m in Sources */,
 				8D273E961E81E140003FBB90 /* UIScrollView+MJRefresh.m in Sources */,
 				8D273E8C1E81E140003FBB90 /* MJRefreshBackGifFooter.m in Sources */,
 				8D273E901E81E140003FBB90 /* MJRefreshNormalHeader.m in Sources */,
 				8D273E8B1E81E140003FBB90 /* MJRefreshAutoStateFooter.m in Sources */,
 				8D0179C01E8ADC2E002E2B9A /* KJListDatasoureEngine.m in Sources */,
+				8D017A1A1E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.m in Sources */,
 				8D0179C71E8ADC2E002E2B9A /* KJTableViewDatasource.m in Sources */,
 				8D0179B91E8ADC2E002E2B9A /* KJCollectionView.m in Sources */,
+				8D017A1F1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.m in Sources */,
 				8D273E851E81E140003FBB90 /* MJRefreshBackFooter.m in Sources */,
 				8D273E201E81DFB4003FBB90 /* main.m in Sources */,
 				8D273E931E81E140003FBB90 /* MJRefreshConst.m in Sources */,
 				8D0179C41E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.m in Sources */,
 				8D273E8D1E81E140003FBB90 /* MJRefreshBackNormalFooter.m in Sources */,
+				8D0179CD1E8AE5A0002E2B9A /* KJModel.m in Sources */,
 				8D273E911E81E140003FBB90 /* MJRefreshStateHeader.m in Sources */,
 				8D273E871E81E140003FBB90 /* MJRefreshFooter.m in Sources */,
 				8D0179C31E8ADC2E002E2B9A /* KJListEngine.m in Sources */,
+				8D0179DB1E8B104A002E2B9A /* KJTableViewTestVC.m in Sources */,
+				8D017A151E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m in Sources */,
 				8D0179BA1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m in Sources */,
 				8D0179BD1E8ADC2E002E2B9A /* KJListDataEmptyHandler.m in Sources */,
 			);
@@ -712,9 +927,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LLKYVL766D;
 				INFOPLIST_FILE = KJTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yilidibkd.com.KJTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yldbkd.www.buyer.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -724,9 +940,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LLKYVL766D;
 				INFOPLIST_FILE = KJTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yilidibkd.com.KJTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yldbkd.www.buyer.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

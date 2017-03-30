@@ -12,14 +12,13 @@
 typedef NS_ENUM(NSInteger,KJListGroupingType) {
     KJListGroupingSingleGroup,          //单组
     KJListGroupingMultiGroupSameHeaderFooter, //多组，相同组头组尾
-    KJListGroupingMultiGroupDifferentHeaderFooter //多组，不同组头组尾
 };
 
 typedef void(^KJEditingCellBlock)(id listView, UITableViewCellEditingStyle editingStyle,NSIndexPath *editingIndexPath, id cellModel);
 
 #pragma mark - single group block
 typedef void(^KJConfigureListCellBlock)(id listView,id listCell,id model,NSIndexPath *indexPath);
-typedef void(^KJConfigureListfirstSectionHeaderFooterBlock)(id listView,id model,id firstSectionHeaderView);
+typedef void(^KJConfigureListfirstSectionHeaderFooterBlock)(id listView,id model,id sectionHeaderView);
 typedef void(^KJListClickCellBlock)(id listView,id listCell,id model,NSIndexPath *clickIndexPath);
 typedef CGFloat(^KJCellHeightBlock)(id listView,id model,NSIndexPath *cellIndexPath);
 
@@ -100,7 +99,7 @@ typedef CGFloat(^KJListSectionFooterHeightBlock)(id listView,NSInteger section,i
 //配置多组的，每组组头相同，
 -(void)configureMultiSetionHeaderNibName:(NSString *)setionHeaderNibName
                              cellNibName:(NSString *)cellNibName
-                    getSectionCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
+                    getSectionCellsCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
                configureSectionCellBlock:(KJConfigureListCellBlock)configureSectionCellBlock
              configureSectionHeaderBlock:(KJConfigureListfirstSectionHeaderFooterBlock)
 configureSectionHeaderBlock
@@ -108,7 +107,7 @@ configureSectionHeaderBlock
 //配置多组的，每组组尾相同，
 -(void)configureMultiSetionFooterNibName:(NSString *)setionFooterNibName
                              cellNibName:(NSString *)cellNibName
-                    getSectionCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
+                    getSectionCellsCountBlock:(KJGetListSectionCellsCountBlock)getSectionCellsCountBlock
                configureSectionCellBlock:(KJConfigureListCellBlock)configureSectionCellBlock
              configureSectionHeaderBlock:(KJConfigureListfirstSectionHeaderFooterBlock)
 configureSectionFooterBlock

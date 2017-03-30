@@ -22,7 +22,7 @@ static NSString *defaultEmptyImageName = @"哭脸";
 
 + (KJEmptyShowBaseView *)createEmptyShowViewOnContainerView:(UIView *)containerView {
 
-    KJEmptyShowBaseView *emptyShowView = [[KJEmptyShowBaseView alloc] init];
+    KJEmptyShowBaseView *emptyShowView = (KJEmptyShowBaseView *)[[[self class] alloc] init];
     emptyShowView.containerView = containerView;
     return emptyShowView;
 }

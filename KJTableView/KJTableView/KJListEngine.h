@@ -98,6 +98,19 @@
  */
 @property (nonatomic,assign)BOOL needPaging;
 
+/**
+ 设置自己的空展示视图，但是该视图必须得遵守以下规则
+ 1.继承KJEmptyShowBaseView
+ 2.调用KJEmptyShowBaseView的两个创建方法之一创建
+ //代码创建的view
+ + (KJEmptyShowBaseView *)createEmptyShowViewOnContainerView:(UIView *)containerView;
+ //xib创建的
+ + (KJEmptyShowBaseView *)createEmptyShowViewWithNibName:(NSString *)nibName
+ OnContainerView:(UIView *)containerView;
+ 3.实现KJEmptyShowBaseView的- (void)showEmptyWithTitle:(NSString *)title
+ imageName:(NSString *)imageName;方法，并在方法里面调用super的这个方法,之后写该视图自己的逻辑
+ */
+- (void)setCustomEmptyShowView:(id)customEmptyShowView;
 
 #pragma mark - 头尾
 /**

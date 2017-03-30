@@ -24,4 +24,6 @@
 
 - (void)handleEmptyCondition;
 
+- (void)setCustomEmptyShowView:(id)customEmptyShowView;
+
 @end

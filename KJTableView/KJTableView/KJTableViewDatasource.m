@@ -12,7 +12,6 @@
 @interface KJTableViewDatasource ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, weak)KJTableView *tableView;
 
-@property (nonatomic,assign)KJListGroupingType tableGroupingType;
 
 @end
 
@@ -21,7 +20,6 @@
 - (instancetype)initWithKJTableView:(KJTableView *)tableView {
     if (self = [super init]) {
         self.tableView = tableView;
-        self.tableGroupingType = self.tableView.listDatasourceEngine.listGroupingType;
         tableView.delegate = self;
         tableView.dataSource = self;
     }
@@ -29,14 +27,23 @@
 
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    if (self.tableGroupingType == KJListGroupingSingleGroup) {
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
         return 1;
     }else {
         return self.tableView.listEngine.listDatas.count;
     }
+}
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
+        return self.tableView.listEngine.listDatas.count;
+    }else {
+        id groupModel = self.tableView.listEngine.listDatas[section];
+        return self.tableView.listDatasourceEngine.getListSectionCellsCountBlock(self,groupModel,section);
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -44,7 +51,7 @@
     NSAssert(self.tableView.listDatasourceEngine.cellIdentifer != nil, @"cell标识符不能为空");
     UITableViewCell *cell =[tableView dequeueReusableCellWithIdentifier:self.tableView.listDatasourceEngine.cellIdentifer forIndexPath:indexPath];
     id model = nil;
-    NSInteger getModelIndex = self.tableGroupingType == KJListGroupingSingleGroup ? indexPath.row : indexPath.section;
+    NSInteger getModelIndex = self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup ? indexPath.row : indexPath.section;
     model = self.tableView.listEngine.listDatas[getModelIndex];
     NSAssert(self.tableView.listDatasourceEngine.configureListCellBlock != nil, @"配置cell的block不能为空");
     self.tableView.listDatasourceEngine.configureListCellBlock(tableView,cell,model,indexPath);
@@ -56,7 +63,7 @@
 {
     
     if (self.tableView.listDatasourceEngine.secontionHeaderHeightBlock) {
-        if (self.tableGroupingType == KJListGroupingSingleGroup) {
+        if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
             return self.tableView.listDatasourceEngine.secontionHeaderHeightBlock(tableView,section,nil);
         }else {
             id groupModel  = self.tableView.listEngine.listDatas[section];
@@ -72,7 +79,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     if (self.tableView.listDatasourceEngine.secontionFooterHeightBlock) {
-        if (self.tableGroupingType == KJListGroupingSingleGroup) {
+        if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
             return self.tableView.listDatasourceEngine.secontionFooterHeightBlock(tableView,section,nil);
         }else {
             id groupModel  = self.tableView.listEngine.listDatas[section];
@@ -89,7 +96,7 @@
     
     if (self.tableView.listDatasourceEngine.cellHeightBlock) {
         id model = nil;
-        if (self.tableGroupingType == KJListGroupingSingleGroup) {
+        if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
             model  = self.tableView.listEngine.listDatas[indexPath.row];
         }else {
             model  = self.tableView.listEngine.listDatas[indexPath.section];
@@ -103,7 +110,7 @@
 
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    if (self.tableGroupingType == KJListGroupingSingleGroup) {
+    if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
         if (self.tableView.listDatasourceEngine.firstSectionHeaderNibName) {
             UIView *firstSectionHeaderView = [[[NSBundle mainBundle] loadNibNamed:self.tableView.listDatasourceEngine.firstSectionHeaderNibName owner:nil options:nil] lastObject];
             if (self.tableView.listDatasourceEngine.configureListfirstSectionHeaderBlock) {
@@ -133,7 +140,7 @@
 
 - (nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
 {
-    if (self.tableGroupingType == KJListGroupingSingleGroup) {
+    if (self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup) {
         if (self.tableView.listDatasourceEngine.firstSectionFooterNibName) {
             UIView *firstSectionFooterView = [[[NSBundle mainBundle] loadNibNamed:self.tableView.listDatasourceEngine.firstSectionFooterNibName owner:nil options:nil] lastObject];
             if (self.tableView.listDatasourceEngine.configureListfirstSectionFooterBlock) {
@@ -174,7 +181,7 @@
     if (self.tableView.listDatasourceEngine.editingCellBlock) {
         NSAssert(self.tableView.listDatasourceEngine.editingStyle != UITableViewCellEditingStyleNone, @"设置了编辑block,没有设置cell编辑类型");
         id model = nil;
-        NSInteger getModelIndex = self.tableGroupingType == KJListGroupingSingleGroup ? indexPath.row : indexPath.section;
+        NSInteger getModelIndex = self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup ? indexPath.row : indexPath.section;
         model = self.tableView.listEngine.listDatas[getModelIndex];
 
         self.tableView.listDatasourceEngine.editingCellBlock(tableView,editingStyle,indexPath,model);
@@ -186,7 +193,7 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     if (self.tableView.listDatasourceEngine.listClickCellBlock) {
         id model = nil;
-        NSInteger getModelIndex = self.tableGroupingType == KJListGroupingSingleGroup ? indexPath.row : indexPath.section;
+        NSInteger getModelIndex = self.tableView.listDatasourceEngine.listGroupingType == KJListGroupingSingleGroup ? indexPath.row : indexPath.section;
         model = self.tableView.listEngine.listDatas[getModelIndex];
         self.tableView.listDatasourceEngine.listClickCellBlock(tableView,cell,model,indexPath);
     }
