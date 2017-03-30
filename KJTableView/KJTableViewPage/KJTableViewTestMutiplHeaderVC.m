@@ -24,13 +24,13 @@
     [super viewDidLoad];
     
     [self _configureKJTableView];
+    
+    [self _requestData];
 }
 
 - (void)_configureKJTableView {
     self.kjTableView.listDatasourceEngine.cellHeight = 40.0f;
     self.kjTableView.listEngine.emptyShowTitle = @"暂无数据";
-    self.kjTableView.listEngine.emptyShowTitle = @"无数据";
-#warning 这句一定要加
     [self.kjTableView.listDatasourceEngine configureMultiSetionHeaderNibName:@"TableTestHeaderView" cellNibName:@"KJTableViewCell" getSectionCellsCountBlock:^NSInteger(id listView, id groupModel, NSInteger section) {
         
         KJGroupModel *grounpModel = (KJGroupModel *)groupModel;
@@ -59,25 +59,13 @@
         }
         return 44;
     };
-    __weak typeof(self) weak_self = self;
-    //头部刷新
-    [self.kjTableView.listEngine beginHeaderRefresh:^{
-        [weak_self _requestData];
-    }];
-    //头部自动刷新
-    [self.kjTableView.listEngine beginHeaderAutoRefresh:^{
-        [weak_self _requestData];
-    }];
-    //尾部刷新
-    [self.kjTableView.listEngine beginFooterRefresh:^{
-        [weak_self _requestData];
-    }];
 }
 
 
 - (void)_requestData {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.kjTableView.listEngine loadDataAfterRequestPagingData:[self _testData]];
+//        [self.kjTableView.listEngine loadDataAfterRequestPagingData:[self _testData]];
+        [self.kjTableView.listEngine loadDataAfterRequestTotalData:[self _testData]];
     });
 }
 

@@ -32,7 +32,7 @@
     self.editingStyle = UITableViewCellEditingStyleNone;
     self.firstSectionHeaderHeight = 0;
     self.cellHeight = 44;
-
+    
 }
 
 #pragma mark ======================== for single section ========================
@@ -69,7 +69,6 @@
         [collectionView registerNib:[UINib nibWithNibName:firstSectionHeaderNibName bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:self.firstSectionHeaderIdentifer];
     }
 }
-
 
 #pragma mark - 配置cell
 -(void)configurecellNibName:(NSString *)cellNibName

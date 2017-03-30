@@ -27,7 +27,6 @@
 
 - (void)_configureKJTableView {
     self.kjTableView.listDatasourceEngine.cellHeight = 40.0f;
-    self.kjTableView.listEngine.emptyShowTitle = @"暂无数据";
     self.kjTableView.listEngine.emptyShowTitle = @"无数据";
     [self.kjTableView.listDatasourceEngine configurecellNibName:@"KJTableViewCell" configurecellData:^(id listView, id listCell, id model, NSIndexPath *indexPath) {
         KJTableViewCell *cell = (KJTableViewCell *)listCell;

@@ -1,21 +1,25 @@
 //
-//  KJTableViewTestNoHeaderVC.m
+//  KJCustomEmptyShowViewTestVC.m
 //  KJTableView
 //
-//  Created by mm on 17/3/29.
+//  Created by mm on 17/3/30.
 //  Copyright © 2017年 mm. All rights reserved.
 //
 
-#import "KJTableViewTestNoHeaderVC.h"
+#import "KJCustomEmptyShowViewTestVC.h"
 #import "KJTableView.h"
 #import "KJTableViewCell.h"
+#import "KJCustomEmptyListShowView.h"
 
-@interface KJTableViewTestNoHeaderVC ()
+
+@interface KJCustomEmptyShowViewTestVC ()
 @property (weak, nonatomic) IBOutlet KJTableView *kjTableView;
+
+@property (nonatomic,strong) KJCustomEmptyListShowView *customEmptyListShowView;
 
 @end
 
-@implementation KJTableViewTestNoHeaderVC
+@implementation KJCustomEmptyShowViewTestVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,7 +29,9 @@
 
 - (void)_configureKJTableView {
     self.kjTableView.listDatasourceEngine.cellHeight = 40.0f;
+    [self.kjTableView.listEngine setCustomEmptyShowView:self.customEmptyListShowView];
     self.kjTableView.listEngine.emptyShowTitle = @"暂无数据";
+    self.kjTableView.listEngine.emptyShowImageName = @"无数据";
     [self.kjTableView.listDatasourceEngine configurecellNibName:@"KJTableViewCell" configurecellData:^(id listView, id listCell, id model, NSIndexPath *indexPath) {
         KJTableViewCell *cell = (KJTableViewCell *)listCell;
         KJModel *kjModel = (KJModel *)model;
@@ -52,7 +58,7 @@
 
 - (void)_requestData {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.kjTableView.listEngine loadDataAfterRequestPagingData:[self _testData]];
+        [self.kjTableView.listEngine loadDataAfterRequestPagingData:[self _testNoneData]];
     });
 }
 
@@ -81,5 +87,12 @@
     return @[];
 }
 
+- (KJCustomEmptyListShowView *)customEmptyListShowView {
+    
+    if (!_customEmptyListShowView) {
+        _customEmptyListShowView = (KJCustomEmptyListShowView *)[KJCustomEmptyListShowView createEmptyShowViewWithNibName:@"KJCustomEmptyListShowView" OnContainerView:self.kjTableView];
+    }
+    return _customEmptyListShowView;
+}
 
 @end

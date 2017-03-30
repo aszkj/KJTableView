@@ -20,6 +20,10 @@
 
 - (void)showEmptyWithTitle:(NSString *)title imageName:(NSString *)imageName {
     [super showEmptyWithTitle:title imageName:imageName];
+    [self configureEmptyShowView];
+}
+
+- (void)configureEmptyShowView {
     [self.empty_show_titleButton setTitle:self.empty_show_title forState:UIControlStateNormal];
     UIImage *showImage = [UIImage imageNamed:self.empty_show_imageName];
     if (!showImage) {
