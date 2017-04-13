@@ -54,7 +54,6 @@
  */
 - (void)loadDataAfterRequestTotalData:(NSArray *)tatalDatas;
 
-
 #pragma mark - 空处理
 /**
  处理数据为空

@@ -1,26 +1,28 @@
 //
-//  KJTableViewTestNoHeaderVC.m
+//  KJTableViewTestNoRefreshVC.m
 //  KJTableView
 //
-//  Created by mm on 17/3/29.
+//  Created by mm on 17/4/13.
 //  Copyright © 2017年 mm. All rights reserved.
 //
 
-#import "KJTableViewTestNoHeaderVC.h"
+#import "KJTableViewTestNoRefreshVC.h"
 #import "KJTableView.h"
 #import "KJTableViewCell.h"
 
-@interface KJTableViewTestNoHeaderVC ()
+@interface KJTableViewTestNoRefreshVC ()
 @property (weak, nonatomic) IBOutlet KJTableView *kjTableView;
 
 @end
 
-@implementation KJTableViewTestNoHeaderVC
+@implementation KJTableViewTestNoRefreshVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self _configureKJTableView];
+    
+    [self _requestData];
 }
 
 - (void)_configureKJTableView {
@@ -33,31 +35,12 @@
     } clickCell:^(id listView, id listCell, id model, NSIndexPath *clickIndexPath) {
         
     }];
-    
-    __weak typeof(self) weak_self = self;
-    //头部刷新
-    [self.kjTableView.listEngine beginHeaderRefresh:^{
-        [weak_self _requestData];
-    }];
-    //头部自动刷新
-    [self.kjTableView.listEngine beginHeaderAutoRefresh:^{
-        [weak_self _requestData];
-    }];
-    //尾部刷新
-    [self.kjTableView.listEngine beginFooterRefresh:^{
-        [weak_self _requestData];
-    }];
 }
 
 
 - (void)_requestData {
-    /*
-     这里接口分页参数，用
-     self.kjTableView.listEngine.requestFromPage;
-     self.kjTableView.listEngine.requestPageSize;
-     */
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.kjTableView.listEngine loadDataAfterRequestPagingData:[self _testData]];
+        [self.kjTableView.listEngine loadDataAfterRequestTotalData:[self _testData]];
     });
 }
 
@@ -85,6 +68,4 @@
     
     return @[];
 }
-
-
 @end

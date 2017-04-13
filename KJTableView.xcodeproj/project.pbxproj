@@ -92,6 +92,12 @@
 		8D273E961E81E140003FBB90 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E7F1E81E140003FBB90 /* UIScrollView+MJRefresh.m */; };
 		8D273E971E81E140003FBB90 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E811E81E140003FBB90 /* UIView+MJExtension.m */; };
 		8D273E981E81E140003FBB90 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E821E81E140003FBB90 /* README.md */; };
+		8DE4AD841EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AD821EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m */; };
+		8DE4AD851EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AD831EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib */; };
+		8DE4AD891EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AD871EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m */; };
+		8DE4AD8A1EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AD881EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.xib */; };
+		8DE4AD8E1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AD8C1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.m */; };
+		8DE4AD8F1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AD8D1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +257,15 @@
 		8D273E801E81E140003FBB90 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		8D273E811E81E140003FBB90 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		8D273E821E81E140003FBB90 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8DE4AD811EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestNoHeaderNoMoreDataRefreshVC.h; sourceTree = "<group>"; };
+		8DE4AD821EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestNoHeaderNoMoreDataRefreshVC.m; sourceTree = "<group>"; };
+		8DE4AD831EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib; sourceTree = "<group>"; };
+		8DE4AD861EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestNoRefreshVC.h; sourceTree = "<group>"; };
+		8DE4AD871EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestNoRefreshVC.m; sourceTree = "<group>"; };
+		8DE4AD881EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestNoRefreshVC.xib; sourceTree = "<group>"; };
+		8DE4AD8B1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewNoHeaderTestVC.h; sourceTree = "<group>"; };
+		8DE4AD8C1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewNoHeaderTestVC.m; sourceTree = "<group>"; };
+		8DE4AD8D1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewNoHeaderTestVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,9 +399,12 @@
 		8D017A271E8C8258002E2B9A /* NoHeaderTest */ = {
 			isa = PBXGroup;
 			children = (
-				8D017A121E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.h */,
-				8D017A131E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m */,
-				8D017A141E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib */,
+				8DE4AD801EA02AD500ADB31A /* NoRefresh */,
+				8DE4AD7F1EA02AB900ADB31A /* NoMoreDataRefresh */,
+				8DE4AD7E1EA02AA300ADB31A /* HasRefresh */,
+				8DE4AD8B1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.h */,
+				8DE4AD8C1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.m */,
+				8DE4AD8D1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.xib */,
 			);
 			name = NoHeaderTest;
 			sourceTree = "<group>";
@@ -593,6 +611,36 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		8DE4AD7E1EA02AA300ADB31A /* HasRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8D017A121E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.h */,
+				8D017A131E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m */,
+				8D017A141E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib */,
+			);
+			name = HasRefresh;
+			sourceTree = "<group>";
+		};
+		8DE4AD7F1EA02AB900ADB31A /* NoMoreDataRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8DE4AD811EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.h */,
+				8DE4AD821EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m */,
+				8DE4AD831EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib */,
+			);
+			name = NoMoreDataRefresh;
+			sourceTree = "<group>";
+		};
+		8DE4AD801EA02AD500ADB31A /* NoRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8DE4AD861EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.h */,
+				8DE4AD871EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m */,
+				8DE4AD881EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.xib */,
+			);
+			name = NoRefresh;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -701,6 +749,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0179F61E8B13E5002E2B9A /* rotating07.png in Resources */,
+				8DE4AD851EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib in Resources */,
 				8D0179F21E8B13E5002E2B9A /* rotating03.png in Resources */,
 				8D0179D21E8AE5D5002E2B9A /* KJTableViewCell.xib in Resources */,
 				8D0179C21E8ADC2E002E2B9A /* KJListEmptyShowView.xib in Resources */,
@@ -723,11 +772,13 @@
 				8D0179F81E8B13E5002E2B9A /* rotating09.png in Resources */,
 				8D0179D71E8AE5F8002E2B9A /* KJCollectionViewCell.xib in Resources */,
 				8D017A2A1E8C839E002E2B9A /* TableTestHeaderView.xib in Resources */,
+				8DE4AD8A1EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.xib in Resources */,
 				8D017A001E8B13E5002E2B9A /* rotating17.png in Resources */,
 				8D017A011E8B13E5002E2B9A /* rotating18.png in Resources */,
 				8D017A161E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib in Resources */,
 				8D017A251E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib in Resources */,
 				8D273E921E81E140003FBB90 /* MJRefresh.bundle in Resources */,
+				8DE4AD8F1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.xib in Resources */,
 				8D0179F11E8B13E5002E2B9A /* rotating02.png in Resources */,
 				8D0179F71E8B13E5002E2B9A /* rotating08.png in Resources */,
 				8D273E291E81DFB4003FBB90 /* Main.storyboard in Resources */,
@@ -760,6 +811,7 @@
 			files = (
 				8D273E261E81DFB4003FBB90 /* ViewController.m in Sources */,
 				8D273E941E81E140003FBB90 /* NSBundle+MJRefresh.m in Sources */,
+				8DE4AD891EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m in Sources */,
 				8D273E8A1E81E140003FBB90 /* MJRefreshAutoNormalFooter.m in Sources */,
 				8D273E891E81E140003FBB90 /* MJRefreshAutoGifFooter.m in Sources */,
 				8D0179C61E8ADC2E002E2B9A /* KJTableView.m in Sources */,
@@ -770,6 +822,7 @@
 				8D0179BB1E8ADC2E002E2B9A /* KJConst.m in Sources */,
 				8D273E231E81DFB4003FBB90 /* AppDelegate.m in Sources */,
 				8D017A3A1E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.m in Sources */,
+				8DE4AD8E1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.m in Sources */,
 				8D0179BE1E8ADC2E002E2B9A /* KJListDataLoadManager.m in Sources */,
 				8D017A2D1E8C8557002E2B9A /* TableTestHeaderView.m in Sources */,
 				8D0179C51E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m in Sources */,
@@ -803,6 +856,7 @@
 				8D273E911E81E140003FBB90 /* MJRefreshStateHeader.m in Sources */,
 				8D273E871E81E140003FBB90 /* MJRefreshFooter.m in Sources */,
 				8D0179C31E8ADC2E002E2B9A /* KJListEngine.m in Sources */,
+				8DE4AD841EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m in Sources */,
 				8D0179DB1E8B104A002E2B9A /* KJTableViewTestVC.m in Sources */,
 				8D017A151E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m in Sources */,
 				8D0179BA1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m in Sources */,
