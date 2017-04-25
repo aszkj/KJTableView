@@ -10,6 +10,7 @@
 #import "KJTableView.h"
 #import "KJTableViewCell.h"
 #import "KJTableViewTestVC.h"
+#import "KJCollectionViewTestVC.h"
 
 
 @interface ViewController ()
@@ -43,7 +44,7 @@
         if (clickIndexPath.row == 0) {
             vc = [[KJTableViewTestVC alloc] init];
         }else {
-            
+            vc = [[KJCollectionViewTestVC alloc] init];
         }
         [weak_self.navigationController pushViewController:vc animated:YES];
     }];

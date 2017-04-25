@@ -7,21 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D0179B91E8ADC2E002E2B9A /* KJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D01799D1E8ADC2E002E2B9A /* KJCollectionView.m */; };
-		8D0179BA1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D01799F1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m */; };
-		8D0179BB1E8ADC2E002E2B9A /* KJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179A11E8ADC2E002E2B9A /* KJConst.m */; };
-		8D0179BC1E8ADC2E002E2B9A /* KJEmptyShowBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179A31E8ADC2E002E2B9A /* KJEmptyShowBaseView.m */; };
-		8D0179BD1E8ADC2E002E2B9A /* KJListDataEmptyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179A51E8ADC2E002E2B9A /* KJListDataEmptyHandler.m */; };
-		8D0179BE1E8ADC2E002E2B9A /* KJListDataLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179A71E8ADC2E002E2B9A /* KJListDataLoadManager.m */; };
-		8D0179BF1E8ADC2E002E2B9A /* KJListDataRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179A91E8ADC2E002E2B9A /* KJListDataRequester.m */; };
-		8D0179C01E8ADC2E002E2B9A /* KJListDatasoureEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179AB1E8ADC2E002E2B9A /* KJListDatasoureEngine.m */; };
-		8D0179C11E8ADC2E002E2B9A /* KJListEmptyShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179AD1E8ADC2E002E2B9A /* KJListEmptyShowView.m */; };
-		8D0179C21E8ADC2E002E2B9A /* KJListEmptyShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179AE1E8ADC2E002E2B9A /* KJListEmptyShowView.xib */; };
-		8D0179C31E8ADC2E002E2B9A /* KJListEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B01E8ADC2E002E2B9A /* KJListEngine.m */; };
-		8D0179C41E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B21E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.m */; };
-		8D0179C51E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B41E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m */; };
-		8D0179C61E8ADC2E002E2B9A /* KJTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B61E8ADC2E002E2B9A /* KJTableView.m */; };
-		8D0179C71E8ADC2E002E2B9A /* KJTableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179B81E8ADC2E002E2B9A /* KJTableViewDatasource.m */; };
 		8D0179CD1E8AE5A0002E2B9A /* KJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179CC1E8AE5A0002E2B9A /* KJModel.m */; };
 		8D0179D11E8AE5D5002E2B9A /* KJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0179CF1E8AE5D5002E2B9A /* KJTableViewCell.m */; };
 		8D0179D21E8AE5D5002E2B9A /* KJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0179D01E8AE5D5002E2B9A /* KJTableViewCell.xib */; };
@@ -60,7 +45,7 @@
 		8D017A301E8C8CCA002E2B9A /* KJGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */; };
 		8D017A331E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A321E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib */; };
 		8D017A361E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A351E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m */; };
-		8D017A3A1E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A381E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.m */; };
+		8D017A3A1E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D017A381E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.m */; };
 		8D017A3B1E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D017A391E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.xib */; };
 		8D273E201E81DFB4003FBB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E1F1E81DFB4003FBB90 /* main.m */; };
 		8D273E231E81DFB4003FBB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E221E81DFB4003FBB90 /* AppDelegate.m */; };
@@ -92,6 +77,41 @@
 		8D273E961E81E140003FBB90 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E7F1E81E140003FBB90 /* UIScrollView+MJRefresh.m */; };
 		8D273E971E81E140003FBB90 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E811E81E140003FBB90 /* UIView+MJExtension.m */; };
 		8D273E981E81E140003FBB90 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D273E821E81E140003FBB90 /* README.md */; };
+		8D85914B1EAFBDDB00156B28 /* KJCollectionViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591491EAFBDDB00156B28 /* KJCollectionViewTestVC.m */; };
+		8D85914C1EAFBDDB00156B28 /* KJCollectionViewTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85914A1EAFBDDB00156B28 /* KJCollectionViewTestVC.xib */; };
+		8D8591511EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85914F1EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.m */; };
+		8D8591521EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591501EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.xib */; };
+		8D8591591EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591571EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.m */; };
+		8D85915A1EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591581EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.xib */; };
+		8D85915E1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85915C1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.m */; };
+		8D85915F1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85915D1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.xib */; };
+		8D8591631EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591611EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.m */; };
+		8D8591641EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591621EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.xib */; };
+		8D8591681EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591661EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.m */; };
+		8D8591691EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591671EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.xib */; };
+		8D85916D1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85916B1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.m */; };
+		8D85916E1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85916C1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.xib */; };
+		8D8591721EAFCD2A00156B28 /* KJCollectionSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591701EAFCD2A00156B28 /* KJCollectionSectionHeaderView.m */; };
+		8D8591731EAFCD2A00156B28 /* KJCollectionSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591711EAFCD2A00156B28 /* KJCollectionSectionHeaderView.xib */; };
+		8D8591771EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591751EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.m */; };
+		8D8591781EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591761EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.xib */; };
+		8D85917C1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85917A1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.m */; };
+		8D85917D1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85917B1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.xib */; };
+		8D8591871EAFF7C200156B28 /* KJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591841EAFF7C200156B28 /* KJConst.m */; };
+		8D8591881EAFF7C200156B28 /* KJListHeaderFooterConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591861EAFF7C200156B28 /* KJListHeaderFooterConfigure.m */; };
+		8D85918D1EAFF7CB00156B28 /* KJListDatasoureEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85918A1EAFF7CB00156B28 /* KJListDatasoureEngine.m */; };
+		8D85918E1EAFF7CB00156B28 /* KJListEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85918C1EAFF7CB00156B28 /* KJListEngine.m */; };
+		8D8591971EAFF7DA00156B28 /* KJListDataEmptyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591901EAFF7DA00156B28 /* KJListDataEmptyHandler.m */; };
+		8D8591981EAFF7DA00156B28 /* KJListDataLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591921EAFF7DA00156B28 /* KJListDataLoadManager.m */; };
+		8D8591991EAFF7DA00156B28 /* KJListDataRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591941EAFF7DA00156B28 /* KJListDataRequester.m */; };
+		8D85919A1EAFF7DA00156B28 /* KJListHeaderFooterRefresher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591961EAFF7DA00156B28 /* KJListHeaderFooterRefresher.m */; };
+		8D85919F1EAFF7E700156B28 /* KJCollectionViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85919C1EAFF7E700156B28 /* KJCollectionViewDatasource.m */; };
+		8D8591A01EAFF7E700156B28 /* KJTableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85919E1EAFF7E700156B28 /* KJTableViewDatasource.m */; };
+		8D8591AA1EAFF7F100156B28 /* KJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591A21EAFF7F100156B28 /* KJCollectionView.m */; };
+		8D8591AB1EAFF7F100156B28 /* KJEmptyShowBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591A41EAFF7F100156B28 /* KJEmptyShowBaseView.m */; };
+		8D8591AC1EAFF7F100156B28 /* KJListEmptyShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591A61EAFF7F100156B28 /* KJListEmptyShowView.m */; };
+		8D8591AD1EAFF7F100156B28 /* KJListEmptyShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591A71EAFF7F100156B28 /* KJListEmptyShowView.xib */; };
+		8D8591AE1EAFF7F100156B28 /* KJTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591A91EAFF7F100156B28 /* KJTableView.m */; };
 		8DE4AD841EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AD821EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m */; };
 		8DE4AD851EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AD831EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib */; };
 		8DE4AD891EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AD871EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m */; };
@@ -118,35 +138,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D01799C1E8ADC2E002E2B9A /* KJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionView.h; sourceTree = "<group>"; };
-		8D01799D1E8ADC2E002E2B9A /* KJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionView.m; sourceTree = "<group>"; };
-		8D01799E1E8ADC2E002E2B9A /* KJCollectionViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewDatasource.h; sourceTree = "<group>"; };
-		8D01799F1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewDatasource.m; sourceTree = "<group>"; };
-		8D0179A01E8ADC2E002E2B9A /* KJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJConst.h; sourceTree = "<group>"; };
-		8D0179A11E8ADC2E002E2B9A /* KJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJConst.m; sourceTree = "<group>"; };
-		8D0179A21E8ADC2E002E2B9A /* KJEmptyShowBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEmptyShowBaseView.h; sourceTree = "<group>"; };
-		8D0179A31E8ADC2E002E2B9A /* KJEmptyShowBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJEmptyShowBaseView.m; sourceTree = "<group>"; };
-		8D0179A41E8ADC2E002E2B9A /* KJListDataEmptyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDataEmptyHandler.h; sourceTree = "<group>"; };
-		8D0179A51E8ADC2E002E2B9A /* KJListDataEmptyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDataEmptyHandler.m; sourceTree = "<group>"; };
-		8D0179A61E8ADC2E002E2B9A /* KJListDataLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDataLoadManager.h; sourceTree = "<group>"; };
-		8D0179A71E8ADC2E002E2B9A /* KJListDataLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDataLoadManager.m; sourceTree = "<group>"; };
-		8D0179A81E8ADC2E002E2B9A /* KJListDataRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDataRequester.h; sourceTree = "<group>"; };
-		8D0179A91E8ADC2E002E2B9A /* KJListDataRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDataRequester.m; sourceTree = "<group>"; };
-		8D0179AA1E8ADC2E002E2B9A /* KJListDatasoureEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDatasoureEngine.h; sourceTree = "<group>"; };
-		8D0179AB1E8ADC2E002E2B9A /* KJListDatasoureEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDatasoureEngine.m; sourceTree = "<group>"; };
-		8D0179AC1E8ADC2E002E2B9A /* KJListEmptyShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListEmptyShowView.h; sourceTree = "<group>"; };
-		8D0179AD1E8ADC2E002E2B9A /* KJListEmptyShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListEmptyShowView.m; sourceTree = "<group>"; };
-		8D0179AE1E8ADC2E002E2B9A /* KJListEmptyShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJListEmptyShowView.xib; sourceTree = "<group>"; };
-		8D0179AF1E8ADC2E002E2B9A /* KJListEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListEngine.h; sourceTree = "<group>"; };
-		8D0179B01E8ADC2E002E2B9A /* KJListEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListEngine.m; sourceTree = "<group>"; };
-		8D0179B11E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListHeaderFooterConfigure.h; sourceTree = "<group>"; };
-		8D0179B21E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListHeaderFooterConfigure.m; sourceTree = "<group>"; };
-		8D0179B31E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListHeaderFooterRefresher.h; sourceTree = "<group>"; };
-		8D0179B41E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListHeaderFooterRefresher.m; sourceTree = "<group>"; };
-		8D0179B51E8ADC2E002E2B9A /* KJTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableView.h; sourceTree = "<group>"; };
-		8D0179B61E8ADC2E002E2B9A /* KJTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableView.m; sourceTree = "<group>"; };
-		8D0179B71E8ADC2E002E2B9A /* KJTableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewDatasource.h; sourceTree = "<group>"; };
-		8D0179B81E8ADC2E002E2B9A /* KJTableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewDatasource.m; sourceTree = "<group>"; };
 		8D0179CB1E8AE5A0002E2B9A /* KJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJModel.h; sourceTree = "<group>"; };
 		8D0179CC1E8AE5A0002E2B9A /* KJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJModel.m; sourceTree = "<group>"; };
 		8D0179CE1E8AE5D5002E2B9A /* KJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KJTableViewCell.h; path = ../KJTableViewCell.h; sourceTree = "<group>"; };
@@ -193,11 +184,11 @@
 		8D017A2C1E8C8557002E2B9A /* TableTestHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTestHeaderView.m; sourceTree = "<group>"; };
 		8D017A2E1E8C8CCA002E2B9A /* KJGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJGroupModel.h; sourceTree = "<group>"; };
 		8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJGroupModel.m; sourceTree = "<group>"; };
-		8D017A321E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCustomEmptyListShowView.xib; sourceTree = "<group>"; };
-		8D017A341E8DB5C5002E2B9A /* KJCustomEmptyListShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCustomEmptyListShowView.h; sourceTree = "<group>"; };
-		8D017A351E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCustomEmptyListShowView.m; sourceTree = "<group>"; };
-		8D017A371E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCustomEmptyShowViewTestVC.h; sourceTree = "<group>"; };
-		8D017A381E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCustomEmptyShowViewTestVC.m; sourceTree = "<group>"; };
+		8D017A321E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KJCustomEmptyListShowView.xib; path = KJTableViewPage/KJCustomEmptyListShowView.xib; sourceTree = "<group>"; };
+		8D017A341E8DB5C5002E2B9A /* KJCustomEmptyListShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KJCustomEmptyListShowView.h; path = KJTableViewPage/KJCustomEmptyListShowView.h; sourceTree = "<group>"; };
+		8D017A351E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KJCustomEmptyListShowView.m; path = KJTableViewPage/KJCustomEmptyListShowView.m; sourceTree = "<group>"; };
+		8D017A371E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCustomTableViewEmptyTestVC.h; sourceTree = "<group>"; };
+		8D017A381E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCustomTableViewEmptyTestVC.m; sourceTree = "<group>"; };
 		8D017A391E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCustomEmptyShowViewTestVC.xib; sourceTree = "<group>"; };
 		8D273E1B1E81DFB4003FBB90 /* KJTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D273E1F1E81DFB4003FBB90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -257,6 +248,65 @@
 		8D273E801E81E140003FBB90 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		8D273E811E81E140003FBB90 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		8D273E821E81E140003FBB90 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D8591481EAFBDDB00156B28 /* KJCollectionViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestVC.h; sourceTree = "<group>"; };
+		8D8591491EAFBDDB00156B28 /* KJCollectionViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestVC.m; sourceTree = "<group>"; };
+		8D85914A1EAFBDDB00156B28 /* KJCollectionViewTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestVC.xib; sourceTree = "<group>"; };
+		8D85914E1EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewNoHeaderTestVC.h; sourceTree = "<group>"; };
+		8D85914F1EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewNoHeaderTestVC.m; sourceTree = "<group>"; };
+		8D8591501EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewNoHeaderTestVC.xib; sourceTree = "<group>"; };
+		8D8591561EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestNoRefreshVC.h; sourceTree = "<group>"; };
+		8D8591571EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestNoRefreshVC.m; sourceTree = "<group>"; };
+		8D8591581EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestNoRefreshVC.xib; sourceTree = "<group>"; };
+		8D85915B1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.h; sourceTree = "<group>"; };
+		8D85915C1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.m; sourceTree = "<group>"; };
+		8D85915D1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.xib; sourceTree = "<group>"; };
+		8D8591601EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestNoHeaderVC.h; sourceTree = "<group>"; };
+		8D8591611EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestNoHeaderVC.m; sourceTree = "<group>"; };
+		8D8591621EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestNoHeaderVC.xib; sourceTree = "<group>"; };
+		8D8591651EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestHasHeaderVC.h; sourceTree = "<group>"; };
+		8D8591661EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestHasHeaderVC.m; sourceTree = "<group>"; };
+		8D8591671EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestHasHeaderVC.xib; sourceTree = "<group>"; };
+		8D85916A1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestSingleHeaderVC.h; sourceTree = "<group>"; };
+		8D85916B1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestSingleHeaderVC.m; sourceTree = "<group>"; };
+		8D85916C1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestSingleHeaderVC.xib; sourceTree = "<group>"; };
+		8D85916F1EAFCD2A00156B28 /* KJCollectionSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionSectionHeaderView.h; sourceTree = "<group>"; };
+		8D8591701EAFCD2A00156B28 /* KJCollectionSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionSectionHeaderView.m; sourceTree = "<group>"; };
+		8D8591711EAFCD2A00156B28 /* KJCollectionSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionSectionHeaderView.xib; sourceTree = "<group>"; };
+		8D8591741EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewTestMutiplHeaderVC.h; sourceTree = "<group>"; };
+		8D8591751EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewTestMutiplHeaderVC.m; sourceTree = "<group>"; };
+		8D8591761EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCollectionViewTestMutiplHeaderVC.xib; sourceTree = "<group>"; };
+		8D8591791EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCustomCollectionViewEmptyTestVC.h; sourceTree = "<group>"; };
+		8D85917A1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCustomCollectionViewEmptyTestVC.m; sourceTree = "<group>"; };
+		8D85917B1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCustomCollectionViewEmptyTestVC.xib; sourceTree = "<group>"; };
+		8D8591831EAFF7C200156B28 /* KJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJConst.h; sourceTree = "<group>"; };
+		8D8591841EAFF7C200156B28 /* KJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJConst.m; sourceTree = "<group>"; };
+		8D8591851EAFF7C200156B28 /* KJListHeaderFooterConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListHeaderFooterConfigure.h; sourceTree = "<group>"; };
+		8D8591861EAFF7C200156B28 /* KJListHeaderFooterConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListHeaderFooterConfigure.m; sourceTree = "<group>"; };
+		8D8591891EAFF7CB00156B28 /* KJListDatasoureEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDatasoureEngine.h; sourceTree = "<group>"; };
+		8D85918A1EAFF7CB00156B28 /* KJListDatasoureEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDatasoureEngine.m; sourceTree = "<group>"; };
+		8D85918B1EAFF7CB00156B28 /* KJListEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListEngine.h; sourceTree = "<group>"; };
+		8D85918C1EAFF7CB00156B28 /* KJListEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListEngine.m; sourceTree = "<group>"; };
+		8D85918F1EAFF7DA00156B28 /* KJListDataEmptyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDataEmptyHandler.h; sourceTree = "<group>"; };
+		8D8591901EAFF7DA00156B28 /* KJListDataEmptyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDataEmptyHandler.m; sourceTree = "<group>"; };
+		8D8591911EAFF7DA00156B28 /* KJListDataLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDataLoadManager.h; sourceTree = "<group>"; };
+		8D8591921EAFF7DA00156B28 /* KJListDataLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDataLoadManager.m; sourceTree = "<group>"; };
+		8D8591931EAFF7DA00156B28 /* KJListDataRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListDataRequester.h; sourceTree = "<group>"; };
+		8D8591941EAFF7DA00156B28 /* KJListDataRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListDataRequester.m; sourceTree = "<group>"; };
+		8D8591951EAFF7DA00156B28 /* KJListHeaderFooterRefresher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListHeaderFooterRefresher.h; sourceTree = "<group>"; };
+		8D8591961EAFF7DA00156B28 /* KJListHeaderFooterRefresher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListHeaderFooterRefresher.m; sourceTree = "<group>"; };
+		8D85919B1EAFF7E700156B28 /* KJCollectionViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionViewDatasource.h; sourceTree = "<group>"; };
+		8D85919C1EAFF7E700156B28 /* KJCollectionViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionViewDatasource.m; sourceTree = "<group>"; };
+		8D85919D1EAFF7E700156B28 /* KJTableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewDatasource.h; sourceTree = "<group>"; };
+		8D85919E1EAFF7E700156B28 /* KJTableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewDatasource.m; sourceTree = "<group>"; };
+		8D8591A11EAFF7F100156B28 /* KJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionView.h; sourceTree = "<group>"; };
+		8D8591A21EAFF7F100156B28 /* KJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionView.m; sourceTree = "<group>"; };
+		8D8591A31EAFF7F100156B28 /* KJEmptyShowBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEmptyShowBaseView.h; sourceTree = "<group>"; };
+		8D8591A41EAFF7F100156B28 /* KJEmptyShowBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJEmptyShowBaseView.m; sourceTree = "<group>"; };
+		8D8591A51EAFF7F100156B28 /* KJListEmptyShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJListEmptyShowView.h; sourceTree = "<group>"; };
+		8D8591A61EAFF7F100156B28 /* KJListEmptyShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJListEmptyShowView.m; sourceTree = "<group>"; };
+		8D8591A71EAFF7F100156B28 /* KJListEmptyShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJListEmptyShowView.xib; sourceTree = "<group>"; };
+		8D8591A81EAFF7F100156B28 /* KJTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableView.h; sourceTree = "<group>"; };
+		8D8591A91EAFF7F100156B28 /* KJTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableView.m; sourceTree = "<group>"; };
 		8DE4AD811EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewTestNoHeaderNoMoreDataRefreshVC.h; sourceTree = "<group>"; };
 		8DE4AD821EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewTestNoHeaderNoMoreDataRefreshVC.m; sourceTree = "<group>"; };
 		8DE4AD831EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib; sourceTree = "<group>"; };
@@ -296,35 +346,11 @@
 		8D01799B1E8ADC2E002E2B9A /* KJTableView */ = {
 			isa = PBXGroup;
 			children = (
-				8D01799C1E8ADC2E002E2B9A /* KJCollectionView.h */,
-				8D01799D1E8ADC2E002E2B9A /* KJCollectionView.m */,
-				8D01799E1E8ADC2E002E2B9A /* KJCollectionViewDatasource.h */,
-				8D01799F1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m */,
-				8D0179A01E8ADC2E002E2B9A /* KJConst.h */,
-				8D0179A11E8ADC2E002E2B9A /* KJConst.m */,
-				8D0179A21E8ADC2E002E2B9A /* KJEmptyShowBaseView.h */,
-				8D0179A31E8ADC2E002E2B9A /* KJEmptyShowBaseView.m */,
-				8D0179A41E8ADC2E002E2B9A /* KJListDataEmptyHandler.h */,
-				8D0179A51E8ADC2E002E2B9A /* KJListDataEmptyHandler.m */,
-				8D0179A61E8ADC2E002E2B9A /* KJListDataLoadManager.h */,
-				8D0179A71E8ADC2E002E2B9A /* KJListDataLoadManager.m */,
-				8D0179A81E8ADC2E002E2B9A /* KJListDataRequester.h */,
-				8D0179A91E8ADC2E002E2B9A /* KJListDataRequester.m */,
-				8D0179AA1E8ADC2E002E2B9A /* KJListDatasoureEngine.h */,
-				8D0179AB1E8ADC2E002E2B9A /* KJListDatasoureEngine.m */,
-				8D0179AC1E8ADC2E002E2B9A /* KJListEmptyShowView.h */,
-				8D0179AD1E8ADC2E002E2B9A /* KJListEmptyShowView.m */,
-				8D0179AE1E8ADC2E002E2B9A /* KJListEmptyShowView.xib */,
-				8D0179AF1E8ADC2E002E2B9A /* KJListEngine.h */,
-				8D0179B01E8ADC2E002E2B9A /* KJListEngine.m */,
-				8D0179B11E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.h */,
-				8D0179B21E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.m */,
-				8D0179B31E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.h */,
-				8D0179B41E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m */,
-				8D0179B51E8ADC2E002E2B9A /* KJTableView.h */,
-				8D0179B61E8ADC2E002E2B9A /* KJTableView.m */,
-				8D0179B71E8ADC2E002E2B9A /* KJTableViewDatasource.h */,
-				8D0179B81E8ADC2E002E2B9A /* KJTableViewDatasource.m */,
+				8D85917E1EAFF6FF00156B28 /* Configure */,
+				8D85917F1EAFF6FF00156B28 /* Engine */,
+				8D8591801EAFF6FF00156B28 /* Helper */,
+				8D8591811EAFF6FF00156B28 /* ListDataSource */,
+				8D8591821EAFF6FF00156B28 /* UI */,
 			);
 			path = KJTableView;
 			sourceTree = "<group>";
@@ -332,9 +358,13 @@
 		8D0179C81E8AE553002E2B9A /* KJCollectionViewTestExample */ = {
 			isa = PBXGroup;
 			children = (
-				8D0179D31E8AE5F8002E2B9A /* KJCollectionViewCell.h */,
-				8D0179D41E8AE5F8002E2B9A /* KJCollectionViewCell.m */,
-				8D0179D51E8AE5F8002E2B9A /* KJCollectionViewCell.xib */,
+				8D85914D1EAFC3F100156B28 /* EmptyCollectionViewTest */,
+				8D8591471EAFBD9500156B28 /* HasHeaderTest */,
+				8D8591461EAFBD8500156B28 /* NoHeaderTest */,
+				8D8591451EAFBD6500156B28 /* CollectionCellAndHeader */,
+				8D8591481EAFBDDB00156B28 /* KJCollectionViewTestVC.h */,
+				8D8591491EAFBDDB00156B28 /* KJCollectionViewTestVC.m */,
+				8D85914A1EAFBDDB00156B28 /* KJCollectionViewTestVC.xib */,
 			);
 			name = KJCollectionViewTestExample;
 			path = KJCollectionViewPage;
@@ -425,11 +455,8 @@
 		8D017A311E8DB2FE002E2B9A /* CustomEmptyListShowViewTest */ = {
 			isa = PBXGroup;
 			children = (
-				8D017A321E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib */,
-				8D017A341E8DB5C5002E2B9A /* KJCustomEmptyListShowView.h */,
-				8D017A351E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m */,
-				8D017A371E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.h */,
-				8D017A381E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.m */,
+				8D017A371E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.h */,
+				8D017A381E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.m */,
 				8D017A391E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.xib */,
 			);
 			name = CustomEmptyListShowViewTest;
@@ -439,6 +466,7 @@
 			isa = PBXGroup;
 			children = (
 				8D273E1D1E81DFB4003FBB90 /* KJTableView */,
+				8D273E511E81E140003FBB90 /* MJRefresh */,
 				8D273E371E81DFB4003FBB90 /* KJTableViewTests */,
 				8D273E421E81DFB4003FBB90 /* KJTableViewUITests */,
 				8D273E1C1E81DFB4003FBB90 /* Products */,
@@ -459,11 +487,11 @@
 			isa = PBXGroup;
 			children = (
 				8D01799B1E8ADC2E002E2B9A /* KJTableView */,
-				8D273E511E81E140003FBB90 /* MJRefresh */,
 				8D273E211E81DFB4003FBB90 /* AppDelegate.h */,
 				8D273E221E81DFB4003FBB90 /* AppDelegate.m */,
 				8D273E241E81DFB4003FBB90 /* ViewController.h */,
 				8D273E251E81DFB4003FBB90 /* ViewController.m */,
+				8D8591AF1EAFF91300156B28 /* Other */,
 				8D0179C81E8AE553002E2B9A /* KJCollectionViewTestExample */,
 				8D0179C91E8AE553002E2B9A /* KJTableViewTestExample */,
 				8D273E271E81DFB4003FBB90 /* Main.storyboard */,
@@ -471,10 +499,6 @@
 				8D273E2C1E81DFB4003FBB90 /* LaunchScreen.storyboard */,
 				8D273E2F1E81DFB4003FBB90 /* Info.plist */,
 				8D273E1E1E81DFB4003FBB90 /* Supporting Files */,
-				8D0179CB1E8AE5A0002E2B9A /* KJModel.h */,
-				8D0179CC1E8AE5A0002E2B9A /* KJModel.m */,
-				8D017A2E1E8C8CCA002E2B9A /* KJGroupModel.h */,
-				8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */,
 			);
 			path = KJTableView;
 			sourceTree = "<group>";
@@ -513,7 +537,8 @@
 				8D273E531E81E140003FBB90 /* MJRefresh */,
 				8D273E821E81E140003FBB90 /* README.md */,
 			);
-			path = MJRefresh;
+			name = MJRefresh;
+			path = KJTableView/MJRefresh;
 			sourceTree = "<group>";
 		};
 		8D273E531E81E140003FBB90 /* MJRefresh */ = {
@@ -609,6 +634,166 @@
 				8D273E751E81E140003FBB90 /* MJRefreshStateHeader.m */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		8D8591451EAFBD6500156B28 /* CollectionCellAndHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8D0179D31E8AE5F8002E2B9A /* KJCollectionViewCell.h */,
+				8D0179D41E8AE5F8002E2B9A /* KJCollectionViewCell.m */,
+				8D0179D51E8AE5F8002E2B9A /* KJCollectionViewCell.xib */,
+				8D85916F1EAFCD2A00156B28 /* KJCollectionSectionHeaderView.h */,
+				8D8591701EAFCD2A00156B28 /* KJCollectionSectionHeaderView.m */,
+				8D8591711EAFCD2A00156B28 /* KJCollectionSectionHeaderView.xib */,
+			);
+			name = CollectionCellAndHeader;
+			sourceTree = "<group>";
+		};
+		8D8591461EAFBD8500156B28 /* NoHeaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591551EAFC46F00156B28 /* HasRefresh */,
+				8D8591541EAFC46200156B28 /* NoMoreDataRefresh */,
+				8D8591531EAFC45500156B28 /* NoRefresh */,
+				8D85914E1EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.h */,
+				8D85914F1EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.m */,
+				8D8591501EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.xib */,
+			);
+			name = NoHeaderTest;
+			sourceTree = "<group>";
+		};
+		8D8591471EAFBD9500156B28 /* HasHeaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591651EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.h */,
+				8D8591661EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.m */,
+				8D8591671EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.xib */,
+				8D85916A1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.h */,
+				8D85916B1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.m */,
+				8D85916C1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.xib */,
+				8D8591741EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.h */,
+				8D8591751EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.m */,
+				8D8591761EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.xib */,
+			);
+			name = HasHeaderTest;
+			sourceTree = "<group>";
+		};
+		8D85914D1EAFC3F100156B28 /* EmptyCollectionViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591791EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.h */,
+				8D85917A1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.m */,
+				8D85917B1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.xib */,
+			);
+			name = EmptyCollectionViewTest;
+			sourceTree = "<group>";
+		};
+		8D8591531EAFC45500156B28 /* NoRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591561EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.h */,
+				8D8591571EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.m */,
+				8D8591581EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.xib */,
+			);
+			name = NoRefresh;
+			sourceTree = "<group>";
+		};
+		8D8591541EAFC46200156B28 /* NoMoreDataRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8D85915B1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.h */,
+				8D85915C1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.m */,
+				8D85915D1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.xib */,
+			);
+			name = NoMoreDataRefresh;
+			sourceTree = "<group>";
+		};
+		8D8591551EAFC46F00156B28 /* HasRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591601EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.h */,
+				8D8591611EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.m */,
+				8D8591621EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.xib */,
+			);
+			name = HasRefresh;
+			sourceTree = "<group>";
+		};
+		8D85917E1EAFF6FF00156B28 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591831EAFF7C200156B28 /* KJConst.h */,
+				8D8591841EAFF7C200156B28 /* KJConst.m */,
+				8D8591851EAFF7C200156B28 /* KJListHeaderFooterConfigure.h */,
+				8D8591861EAFF7C200156B28 /* KJListHeaderFooterConfigure.m */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		8D85917F1EAFF6FF00156B28 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591891EAFF7CB00156B28 /* KJListDatasoureEngine.h */,
+				8D85918A1EAFF7CB00156B28 /* KJListDatasoureEngine.m */,
+				8D85918B1EAFF7CB00156B28 /* KJListEngine.h */,
+				8D85918C1EAFF7CB00156B28 /* KJListEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		8D8591801EAFF6FF00156B28 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8D85918F1EAFF7DA00156B28 /* KJListDataEmptyHandler.h */,
+				8D8591901EAFF7DA00156B28 /* KJListDataEmptyHandler.m */,
+				8D8591911EAFF7DA00156B28 /* KJListDataLoadManager.h */,
+				8D8591921EAFF7DA00156B28 /* KJListDataLoadManager.m */,
+				8D8591931EAFF7DA00156B28 /* KJListDataRequester.h */,
+				8D8591941EAFF7DA00156B28 /* KJListDataRequester.m */,
+				8D8591951EAFF7DA00156B28 /* KJListHeaderFooterRefresher.h */,
+				8D8591961EAFF7DA00156B28 /* KJListHeaderFooterRefresher.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8D8591811EAFF6FF00156B28 /* ListDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8D85919B1EAFF7E700156B28 /* KJCollectionViewDatasource.h */,
+				8D85919C1EAFF7E700156B28 /* KJCollectionViewDatasource.m */,
+				8D85919D1EAFF7E700156B28 /* KJTableViewDatasource.h */,
+				8D85919E1EAFF7E700156B28 /* KJTableViewDatasource.m */,
+			);
+			path = ListDataSource;
+			sourceTree = "<group>";
+		};
+		8D8591821EAFF6FF00156B28 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8D8591A81EAFF7F100156B28 /* KJTableView.h */,
+				8D8591A91EAFF7F100156B28 /* KJTableView.m */,
+				8D8591A11EAFF7F100156B28 /* KJCollectionView.h */,
+				8D8591A21EAFF7F100156B28 /* KJCollectionView.m */,
+				8D8591A31EAFF7F100156B28 /* KJEmptyShowBaseView.h */,
+				8D8591A41EAFF7F100156B28 /* KJEmptyShowBaseView.m */,
+				8D8591A51EAFF7F100156B28 /* KJListEmptyShowView.h */,
+				8D8591A61EAFF7F100156B28 /* KJListEmptyShowView.m */,
+				8D8591A71EAFF7F100156B28 /* KJListEmptyShowView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8D8591AF1EAFF91300156B28 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8D0179CB1E8AE5A0002E2B9A /* KJModel.h */,
+				8D0179CC1E8AE5A0002E2B9A /* KJModel.m */,
+				8D017A321E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib */,
+				8D017A341E8DB5C5002E2B9A /* KJCustomEmptyListShowView.h */,
+				8D017A351E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m */,
+				8D017A2E1E8C8CCA002E2B9A /* KJGroupModel.h */,
+				8D017A2F1E8C8CCA002E2B9A /* KJGroupModel.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 		8DE4AD7E1EA02AA300ADB31A /* HasRefresh */ = {
@@ -748,41 +933,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8591781EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.xib in Resources */,
 				8D0179F61E8B13E5002E2B9A /* rotating07.png in Resources */,
 				8DE4AD851EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.xib in Resources */,
+				8D8591731EAFCD2A00156B28 /* KJCollectionSectionHeaderView.xib in Resources */,
 				8D0179F21E8B13E5002E2B9A /* rotating03.png in Resources */,
 				8D0179D21E8AE5D5002E2B9A /* KJTableViewCell.xib in Resources */,
-				8D0179C21E8ADC2E002E2B9A /* KJListEmptyShowView.xib in Resources */,
+				8D85915F1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.xib in Resources */,
 				8D0179DC1E8B104A002E2B9A /* KJTableViewTestVC.xib in Resources */,
+				8D8591691EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.xib in Resources */,
 				8D273E2E1E81DFB4003FBB90 /* LaunchScreen.storyboard in Resources */,
 				8D273E2B1E81DFB4003FBB90 /* Assets.xcassets in Resources */,
 				8D017A331E8DB34F002E2B9A /* KJCustomEmptyListShowView.xib in Resources */,
 				8D0179F51E8B13E5002E2B9A /* rotating06.png in Resources */,
 				8D0179F31E8B13E5002E2B9A /* rotating04.png in Resources */,
+				8D8591AD1EAFF7F100156B28 /* KJListEmptyShowView.xib in Resources */,
 				8D273E831E81E140003FBB90 /* LICENSE in Resources */,
 				8D017A201E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.xib in Resources */,
 				8D0179F41E8B13E5002E2B9A /* rotating05.png in Resources */,
 				8D0179FF1E8B13E5002E2B9A /* rotating16.png in Resources */,
 				8D017A3B1E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.xib in Resources */,
 				8D0179FC1E8B13E5002E2B9A /* rotating13.png in Resources */,
+				8D8591521EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.xib in Resources */,
 				8D0179FA1E8B13E5002E2B9A /* rotating11.png in Resources */,
+				8D8591641EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.xib in Resources */,
 				8D0179F01E8B13E5002E2B9A /* rotating01.png in Resources */,
 				8D0179F91E8B13E5002E2B9A /* rotating10.png in Resources */,
 				8D0179FB1E8B13E5002E2B9A /* rotating12.png in Resources */,
 				8D0179F81E8B13E5002E2B9A /* rotating09.png in Resources */,
+				8D85914C1EAFBDDB00156B28 /* KJCollectionViewTestVC.xib in Resources */,
 				8D0179D71E8AE5F8002E2B9A /* KJCollectionViewCell.xib in Resources */,
 				8D017A2A1E8C839E002E2B9A /* TableTestHeaderView.xib in Resources */,
 				8DE4AD8A1EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.xib in Resources */,
 				8D017A001E8B13E5002E2B9A /* rotating17.png in Resources */,
 				8D017A011E8B13E5002E2B9A /* rotating18.png in Resources */,
 				8D017A161E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.xib in Resources */,
+				8D85917D1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.xib in Resources */,
 				8D017A251E8C805B002E2B9A /* KJTableViewTestMutiplHeaderVC.xib in Resources */,
 				8D273E921E81E140003FBB90 /* MJRefresh.bundle in Resources */,
 				8DE4AD8F1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.xib in Resources */,
 				8D0179F11E8B13E5002E2B9A /* rotating02.png in Resources */,
 				8D0179F71E8B13E5002E2B9A /* rotating08.png in Resources */,
 				8D273E291E81DFB4003FBB90 /* Main.storyboard in Resources */,
+				8D85916E1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.xib in Resources */,
 				8D017A1B1E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.xib in Resources */,
+				8D85915A1EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.xib in Resources */,
 				8D0179FD1E8B13E5002E2B9A /* rotating14.png in Resources */,
 				8D0179FE1E8B13E5002E2B9A /* rotating15.png in Resources */,
 			);
@@ -809,25 +1004,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D85918E1EAFF7CB00156B28 /* KJListEngine.m in Sources */,
+				8D85918D1EAFF7CB00156B28 /* KJListDatasoureEngine.m in Sources */,
 				8D273E261E81DFB4003FBB90 /* ViewController.m in Sources */,
 				8D273E941E81E140003FBB90 /* NSBundle+MJRefresh.m in Sources */,
 				8DE4AD891EA02E9300ADB31A /* KJTableViewTestNoRefreshVC.m in Sources */,
 				8D273E8A1E81E140003FBB90 /* MJRefreshAutoNormalFooter.m in Sources */,
+				8D85916D1EAFCBE400156B28 /* KJCollectionViewTestSingleHeaderVC.m in Sources */,
+				8D85919F1EAFF7E700156B28 /* KJCollectionViewDatasource.m in Sources */,
 				8D273E891E81E140003FBB90 /* MJRefreshAutoGifFooter.m in Sources */,
-				8D0179C61E8ADC2E002E2B9A /* KJTableView.m in Sources */,
+				8D8591631EAFC7D100156B28 /* KJCollectionViewTestNoHeaderVC.m in Sources */,
+				8D8591AA1EAFF7F100156B28 /* KJCollectionView.m in Sources */,
 				8D273E951E81E140003FBB90 /* UIScrollView+MJExtension.m in Sources */,
-				8D0179BC1E8ADC2E002E2B9A /* KJEmptyShowBaseView.m in Sources */,
+				8D8591511EAFC44600156B28 /* KJCollectionViewNoHeaderTestVC.m in Sources */,
 				8D273E8F1E81E140003FBB90 /* MJRefreshGifHeader.m in Sources */,
-				8D0179BF1E8ADC2E002E2B9A /* KJListDataRequester.m in Sources */,
-				8D0179BB1E8ADC2E002E2B9A /* KJConst.m in Sources */,
 				8D273E231E81DFB4003FBB90 /* AppDelegate.m in Sources */,
-				8D017A3A1E8DB7F1002E2B9A /* KJCustomEmptyShowViewTestVC.m in Sources */,
+				8D017A3A1E8DB7F1002E2B9A /* KJCustomTableViewEmptyTestVC.m in Sources */,
+				8D8591A01EAFF7E700156B28 /* KJTableViewDatasource.m in Sources */,
 				8DE4AD8E1EA0307C00ADB31A /* KJTableViewNoHeaderTestVC.m in Sources */,
-				8D0179BE1E8ADC2E002E2B9A /* KJListDataLoadManager.m in Sources */,
 				8D017A2D1E8C8557002E2B9A /* TableTestHeaderView.m in Sources */,
-				8D0179C51E8ADC2E002E2B9A /* KJListHeaderFooterRefresher.m in Sources */,
 				8D273E861E81E140003FBB90 /* MJRefreshComponent.m in Sources */,
-				8D0179C11E8ADC2E002E2B9A /* KJListEmptyShowView.m in Sources */,
+				8D8591991EAFF7DA00156B28 /* KJListDataRequester.m in Sources */,
 				8D273E981E81E140003FBB90 /* README.md in Sources */,
 				8D017A301E8C8CCA002E2B9A /* KJGroupModel.m in Sources */,
 				8D273E881E81E140003FBB90 /* MJRefreshHeader.m in Sources */,
@@ -836,31 +1033,39 @@
 				8D273E971E81E140003FBB90 /* UIView+MJExtension.m in Sources */,
 				8D273E8E1E81E140003FBB90 /* MJRefreshBackStateFooter.m in Sources */,
 				8D273E841E81E140003FBB90 /* MJRefreshAutoFooter.m in Sources */,
+				8D8591881EAFF7C200156B28 /* KJListHeaderFooterConfigure.m in Sources */,
+				8D8591AC1EAFF7F100156B28 /* KJListEmptyShowView.m in Sources */,
+				8D8591771EAFCE1B00156B28 /* KJCollectionViewTestMutiplHeaderVC.m in Sources */,
 				8D0179D61E8AE5F8002E2B9A /* KJCollectionViewCell.m in Sources */,
 				8D273E961E81E140003FBB90 /* UIScrollView+MJRefresh.m in Sources */,
+				8D85914B1EAFBDDB00156B28 /* KJCollectionViewTestVC.m in Sources */,
 				8D273E8C1E81E140003FBB90 /* MJRefreshBackGifFooter.m in Sources */,
+				8D8591AB1EAFF7F100156B28 /* KJEmptyShowBaseView.m in Sources */,
+				8D8591591EAFC5A900156B28 /* KJCollectionViewTestNoRefreshVC.m in Sources */,
 				8D273E901E81E140003FBB90 /* MJRefreshNormalHeader.m in Sources */,
+				8D8591721EAFCD2A00156B28 /* KJCollectionSectionHeaderView.m in Sources */,
+				8D8591AE1EAFF7F100156B28 /* KJTableView.m in Sources */,
 				8D273E8B1E81E140003FBB90 /* MJRefreshAutoStateFooter.m in Sources */,
 				8D017A361E8DB5C5002E2B9A /* KJCustomEmptyListShowView.m in Sources */,
-				8D0179C01E8ADC2E002E2B9A /* KJListDatasoureEngine.m in Sources */,
+				8D8591971EAFF7DA00156B28 /* KJListDataEmptyHandler.m in Sources */,
 				8D017A1A1E8C7D24002E2B9A /* KJTableViewTestHasHeaderVC.m in Sources */,
-				8D0179C71E8ADC2E002E2B9A /* KJTableViewDatasource.m in Sources */,
-				8D0179B91E8ADC2E002E2B9A /* KJCollectionView.m in Sources */,
+				8D85919A1EAFF7DA00156B28 /* KJListHeaderFooterRefresher.m in Sources */,
 				8D017A1F1E8C8039002E2B9A /* KJTableViewTestSingleHeaderVC.m in Sources */,
 				8D273E851E81E140003FBB90 /* MJRefreshBackFooter.m in Sources */,
 				8D273E201E81DFB4003FBB90 /* main.m in Sources */,
+				8D8591681EAFCB2300156B28 /* KJCollectionViewTestHasHeaderVC.m in Sources */,
+				8D8591871EAFF7C200156B28 /* KJConst.m in Sources */,
 				8D273E931E81E140003FBB90 /* MJRefreshConst.m in Sources */,
-				8D0179C41E8ADC2E002E2B9A /* KJListHeaderFooterConfigure.m in Sources */,
 				8D273E8D1E81E140003FBB90 /* MJRefreshBackNormalFooter.m in Sources */,
 				8D0179CD1E8AE5A0002E2B9A /* KJModel.m in Sources */,
 				8D273E911E81E140003FBB90 /* MJRefreshStateHeader.m in Sources */,
+				8D85915E1EAFC6C400156B28 /* KJCollectionViewTestNoHeaderNoMoreDataRefreshVC.m in Sources */,
 				8D273E871E81E140003FBB90 /* MJRefreshFooter.m in Sources */,
-				8D0179C31E8ADC2E002E2B9A /* KJListEngine.m in Sources */,
 				8DE4AD841EA02B6600ADB31A /* KJTableViewTestNoHeaderNoMoreDataRefreshVC.m in Sources */,
+				8D85917C1EAFD02900156B28 /* KJCustomCollectionViewEmptyTestVC.m in Sources */,
 				8D0179DB1E8B104A002E2B9A /* KJTableViewTestVC.m in Sources */,
+				8D8591981EAFF7DA00156B28 /* KJListDataLoadManager.m in Sources */,
 				8D017A151E8C7C0F002E2B9A /* KJTableViewTestNoHeaderVC.m in Sources */,
-				8D0179BA1E8ADC2E002E2B9A /* KJCollectionViewDatasource.m in Sources */,
-				8D0179BD1E8ADC2E002E2B9A /* KJListDataEmptyHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

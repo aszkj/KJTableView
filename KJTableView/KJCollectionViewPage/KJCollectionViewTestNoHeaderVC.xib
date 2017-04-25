@@ -6,9 +6,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KJCustomTableViewEmptyTestVC">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KJCollectionViewTestNoHeaderVC">
             <connections>
-                <outlet property="kjTableView" destination="lAQ-ag-B82" id="yDa-yW-4nK"/>
+                <outlet property="kjTestCollectionView" destination="gxn-mV-2rb" id="u2J-uK-wHA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,19 +17,24 @@
             <rect key="frame" x="0.0" y="64" width="375" height="603"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lAQ-ag-B82" customClass="KJTableView">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="gxn-mV-2rb" customClass="KJCollectionView">
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </tableView>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cQK-gv-Wmd">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="lAQ-ag-B82" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7D2-Iq-3eo"/>
-                <constraint firstItem="lAQ-ag-B82" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OCF-pI-rDk"/>
-                <constraint firstAttribute="trailing" secondItem="lAQ-ag-B82" secondAttribute="trailing" id="Vvy-uY-V53"/>
-                <constraint firstAttribute="bottom" secondItem="lAQ-ag-B82" secondAttribute="bottom" id="tR6-bC-9SA"/>
+                <constraint firstAttribute="bottom" secondItem="gxn-mV-2rb" secondAttribute="bottom" id="DFi-oS-VmQ"/>
+                <constraint firstItem="gxn-mV-2rb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZHu-Ij-cN7"/>
+                <constraint firstAttribute="trailing" secondItem="gxn-mV-2rb" secondAttribute="trailing" id="c9E-6g-TxU"/>
+                <constraint firstItem="gxn-mV-2rb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zHv-6f-pjQ"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-            <point key="canvasLocation" x="24.5" y="52.5"/>
         </view>
     </objects>
 </document>

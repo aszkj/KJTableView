@@ -11,7 +11,7 @@
 #import "KJTableViewCell.h"
 #import "KJTableViewTestHasHeaderVC.h"
 #import "KJTableViewNoHeaderTestVC.h"
-#import "KJCustomEmptyShowViewTestVC.h"
+#import "KJCustomTableViewEmptyTestVC.h"
 
 @interface KJTableViewTestVC ()
 @property (weak, nonatomic) IBOutlet KJTableView *testTableView;
@@ -48,7 +48,7 @@
         }else if (clickIndexPath.row == 1) {
             vc = [[KJTableViewTestHasHeaderVC alloc] init];
         }else if (clickIndexPath.row == 2) {
-            vc = [[KJCustomEmptyShowViewTestVC alloc] init];
+            vc = [[KJCustomTableViewEmptyTestVC alloc] init];
         }
         [weak_self.navigationController pushViewController:vc animated:YES];
     }];

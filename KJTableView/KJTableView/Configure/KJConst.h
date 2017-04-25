@@ -12,7 +12,7 @@
 #import "KJListHeaderFooterConfigure.h"
 
 typedef void(^RefreshDataBlock)();
-typedef void(^KJConfigureListHeaderFooterBlock)(KJListHeaderFooterConfigure *);
+typedef void(^KJConfigureListHeaderFooterBlock)(KJListHeaderFooterConfigure *headerFooterConfigure);
 
 //block调用
 #define KJCallBlock(block,...)  if (block) {\

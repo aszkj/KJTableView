@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KJCustomEmptyShowViewTestVC : UIViewController
+@interface KJCustomTableViewEmptyTestVC : UIViewController
 
 @end
