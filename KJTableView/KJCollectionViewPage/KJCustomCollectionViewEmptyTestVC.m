@@ -22,10 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self _configureKJTableView];
+    [self _configureKJCollectionView];
 }
 
-- (void)_configureKJTableView {
+- (void)_configureKJCollectionView {
     
     [self.kjTestCollectionView.listEngine setCustomEmptyShowView:self.customEmptyListShowView];
     self.kjTestCollectionView.listEngine.emptyShowTitle = @"暂无数据";

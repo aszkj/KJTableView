@@ -22,12 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self _configureKJTableView];
+    [self _configureKJCollectionView];
     
     [self _requestData];
 }
 
-- (void)_configureKJTableView {
+- (void)_configureKJCollectionView {
 
     self.kjTestCollectionView.listEngine.emptyShowTitle = @"暂无数据";
     [self.kjTestCollectionView.listDatasourceEngine configureMultiSetionHeaderNibName:@"KJCollectionSectionHeaderView" cellNibName:@"KJCollectionViewCell" getSectionCellsCountBlock:^NSInteger(id listView, id groupModel, NSInteger section) {

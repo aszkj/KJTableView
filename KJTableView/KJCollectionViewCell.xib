@@ -29,9 +29,9 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="0Ao-nt-rDV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1t0-T1-QSl"/>
+                <constraint firstItem="0Ao-nt-rDV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="1t0-T1-QSl"/>
                 <constraint firstItem="0Ao-nt-rDV" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="8iY-05-tVo"/>
-                <constraint firstAttribute="trailing" secondItem="0Ao-nt-rDV" secondAttribute="trailing" id="Qp5-pX-mvz"/>
+                <constraint firstAttribute="trailing" secondItem="0Ao-nt-rDV" secondAttribute="trailing" constant="2" id="Qp5-pX-mvz"/>
                 <constraint firstAttribute="bottom" secondItem="ASm-i2-C78" secondAttribute="bottom" constant="5" id="WQk-yp-tip"/>
                 <constraint firstAttribute="trailing" secondItem="ASm-i2-C78" secondAttribute="trailing" constant="5" id="cgM-ev-VNa"/>
                 <constraint firstItem="ASm-i2-C78" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="vt0-lp-h2g"/>

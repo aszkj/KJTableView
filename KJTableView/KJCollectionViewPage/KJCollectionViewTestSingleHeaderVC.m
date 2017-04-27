@@ -21,10 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self _configureKJTableView];
+    [self _configureKJCollectionView];
 }
 
-- (void)_configureKJTableView {
+- (void)_configureKJCollectionView {
     
     self.kjTestCollectionView.listEngine.emptyShowTitle = @"无数据";
     [self.kjTestCollectionView.listDatasourceEngine configurecellNibName:@"KJCollectionViewCell" configurecellData:^(id listView, id listCell, id model, NSIndexPath *indexPath) {

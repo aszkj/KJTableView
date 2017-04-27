@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self _configureKJTableView];
+    [self _configureKJCollectionView];
     
     [self testReloadData];
     
@@ -32,7 +32,7 @@
     [self.kjTestCollectionView.listEngine loadDataAfterRequestTotalData:[self _testData]];
 }
 
-- (void)_configureKJTableView {
+- (void)_configureKJCollectionView {
 
     __weak typeof(self) weak_self = self;
     [self.kjTestCollectionView.listDatasourceEngine configurecellNibName:@"KJCollectionViewCell" configurecellData:^(id listView, id listCell, id model, NSIndexPath *indexPath) {
