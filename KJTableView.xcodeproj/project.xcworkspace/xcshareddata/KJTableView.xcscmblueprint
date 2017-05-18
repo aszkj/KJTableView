@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F0DA9FD8408540A950C0C9BAF6D8DBA36B50992F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F0DA9FD8408540A950C0C9BAF6D8DBA36B50992F" : 9223372036854775807,
+    "C4CC86274166CD257890FB1EF17F70320F74EEBB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "80A1096C-E8DC-4200-843D-1FADC5E95975",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F0DA9FD8408540A950C0C9BAF6D8DBA36B50992F" : "MyOpensource\/",
+    "C4CC86274166CD257890FB1EF17F70320F74EEBB" : "MyOpensource\/KJTableView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KJTableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KJTableView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aszkj\/KJTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4CC86274166CD257890FB1EF17F70320F74EEBB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aszkj\/KJTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0DA9FD8408540A950C0C9BAF6D8DBA36B50992F"
+    }
+  ]
+}

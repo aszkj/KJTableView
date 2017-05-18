@@ -1,0 +1,70 @@
+//
+//  ViewController.m
+//  KJTableView
+//
+//  Created by mm on 17/3/21.
+//  Copyright © 2017年 mm. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "KJTableView.h"
+#import "KJTableViewCell.h"
+#import "KJTableViewTestVC.h"
+#import "KJCollectionViewTestVC.h"
+
+
+@interface ViewController ()
+@property (weak, nonatomic) IBOutlet KJTableView *testTableView;
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self _configureKJTableView];
+    
+    [self testReloadData];
+}
+
+- (void)testReloadData {
+    [self.testTableView.listEngine loadDataAfterRequestTotalData:[self _testData]];
+}
+
+- (void)_configureKJTableView {
+    self.testTableView.listDatasourceEngine.cellHeight = 40.0f;
+    __weak typeof(self) weak_self = self;
+    [self.testTableView.listDatasourceEngine configurecellNibName:@"KJTableViewCell" configurecellData:^(id listView, id listCell, id model, NSIndexPath *indexPath) {
+        KJTableViewCell *cell = (KJTableViewCell *)listCell;
+        KJModel *kjModel = (KJModel *)model;
+        [cell setCellModel:kjModel];
+    } clickCell:^(id listView, id listCell, id model, NSIndexPath *clickIndexPath) {
+        UIViewController *vc = nil;
+        if (clickIndexPath.row == 0) {
+            vc = [[KJTableViewTestVC alloc] init];
+        }else {
+            vc = [[KJCollectionViewTestVC alloc] init];
+        }
+        [weak_self.navigationController pushViewController:vc animated:YES];
+    }];
+}
+
+
+- (NSArray *)_testData {
+    KJModel *model1 = [[KJModel alloc] init];
+    model1.name = @"KJTableViewTestExample";
+    
+    KJModel *model2 = [[KJModel alloc] init];
+    model2.name = @"KJCollectionViewTestExample";
+    return @[model1,model2];
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+@end
